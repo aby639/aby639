@@ -8,7 +8,7 @@
 
 <img src="https://img.shields.io/badge/MemoLens-main_quest-020617?style=for-the-badge&labelColor=020617&color=22d3ee" alt="MemoLens main quest" />
 <img src="https://img.shields.io/badge/Full_stack-mobile_web_API-020617?style=for-the-badge&labelColor=020617&color=fb7185" alt="Full stack mobile web API" />
-<img src="https://img.shields.io/badge/UWS_Paisley-MSc_IT_Web_Development-020617?style=for-the-badge&labelColor=020617&color=facc15" alt="UWS Paisley MSc IT with Web Development" />
+<img src="https://img.shields.io/badge/Open_to_roles-software_developer-020617?style=for-the-badge&labelColor=020617&color=facc15" alt="Open to software developer roles" />
 
 <br>
 
@@ -27,11 +27,11 @@
 
 ---
 
-## Welcome transmission
+## Hello visitor
 
 <div align="center">
 
-<img src="./assets/greeting-terminal.svg" alt="Animated greeting terminal for Aby Daniel Varghese" width="100%" />
+<img src="./assets/greeting-terminal.svg" alt="Animated hello terminal for Aby Daniel Varghese" width="100%" />
 
 </div>
 
