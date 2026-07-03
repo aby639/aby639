@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://github.com/aby639/my-gallery">
-  <img src="./assets/profile-hero.svg" alt="Aby Daniel Varghese - anime cyber MemoLens focused full-stack developer profile" width="100%" />
+  <img src="./assets/profile-hero.svg?v=20260703-work" alt="Aby Daniel Varghese - anime cyber MemoLens focused full-stack developer profile" width="100%" />
 </a>
 
 <br>
