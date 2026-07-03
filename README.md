@@ -31,7 +31,7 @@
 
 <div align="center">
 
-<img src="./assets/greeting-terminal.svg" alt="Animated hello terminal for Aby Daniel Varghese" width="100%" />
+<img src="./assets/greeting-terminal-anime.svg" alt="Animated anime hello terminal for Aby Daniel Varghese" width="100%" />
 
 </div>
 
@@ -114,7 +114,7 @@ I like the middle space where backend logic, databases and frontend experience m
 
 <div align="center">
 
-<img src="./assets/anime-console.svg" alt="Aby Daniel animated developer console" width="100%" />
+<img src="./assets/anime-console-v2.svg" alt="Aby Daniel animated developer console" width="100%" />
 
 </div>
 
