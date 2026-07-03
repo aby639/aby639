@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">Aby Daniel Varghese cyber product profile hero</title>
+  <desc id="desc">Animated cyber style GitHub profile hero focused on MemoLens, full-stack development and product polish.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset="0.48" stop-color="#071426"/>
+      <stop offset="1" stop-color="#030712"/>
+    </linearGradient>
+    <linearGradient id="cyanPink" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.45" stop-color="#7dd3fc"/>
+      <stop offset="1" stop-color="#fb7185"/>
+    </linearGradient>
+    <linearGradient id="goldCyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#facc15"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.72" cy="0.42" r="0.55">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.28"/>
+      <stop offset="0.42" stop-color="#fb7185" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="22" stdDeviation="20" flood-color="#000814" flood-opacity="0.55"/>
+    </filter>
+    <clipPath id="phoneClip">
+      <rect x="0" y="0" width="205" height="330" rx="34"/>
+    </clipPath>
+    <style>
+      .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+      .sans{font-family:Inter,Segoe UI,Arial,sans-serif}
+      .label{font-size:15px;font-weight:800;letter-spacing:2.5px;text-transform:uppercase}
+      .tiny{font-size:12px;font-weight:800;letter-spacing:1.8px;text-transform:uppercase}
+      .grid{animation:gridShift 12s linear infinite}
+      .scan{animation:scan 4.8s ease-in-out infinite}
+      .floatA{animation:floatA 5.5s ease-in-out infinite}
+      .floatB{animation:floatB 6.5s ease-in-out infinite}
+      .pulse{animation:pulse 2.8s ease-in-out infinite}
+      .dash{stroke-dasharray:8 16;animation:dash 8s linear infinite}
+      .glint{animation:glint 3.8s ease-in-out infinite}
+      @keyframes gridShift{from{transform:translateY(0)}to{transform:translateY(32px)}}
+      @keyframes scan{0%,100%{transform:translateX(-140px);opacity:.12}45%,55%{opacity:.55}60%{transform:translateX(1020px);opacity:.1}}
+      @keyframes floatA{0%,100%{transform:translateY(0)}50%{transform:translateY(-13px)}}
+      @keyframes floatB{0%,100%{transform:translateY(0) rotate(-8deg)}50%{transform:translateY(12px) rotate(-5deg)}}
+      @keyframes pulse{0%,100%{opacity:.55}50%{opacity:1}}
+      @keyframes dash{to{stroke-dashoffset:-240}}
+      @keyframes glint{0%{transform:translateX(-260px);opacity:0}28%{opacity:.7}58%,100%{transform:translateX(380px);opacity:0}}
+    </style>
+  </defs>
+
+  <rect width="1200" height="620" rx="34" fill="url(#bg)"/>
+  <rect width="1200" height="620" rx="34" fill="url(#glow)"/>
+
+  <g class="grid" opacity="0.16">
+    <path d="M0 90H1200M0 150H1200M0 210H1200M0 270H1200M0 330H1200M0 390H1200M0 450H1200M0 510H1200" stroke="#38bdf8" stroke-width="1"/>
+    <path d="M80 0V620M170 0V620M260 0V620M350 0V620M440 0V620M530 0V620M620 0V620M710 0V620M800 0V620M890 0V620M980 0V620M1070 0V620" stroke="#334155" stroke-width="1"/>
+  </g>
+
+  <path class="scan" d="M0 0h110l-170 620h-110z" fill="#22d3ee"/>
+
+  <g filter="url(#shadow)">
+    <rect x="68" y="74" width="1064" height="472" rx="34" fill="#050b1d" opacity="0.82"/>
+    <rect x="68" y="74" width="1064" height="472" rx="34" fill="none" stroke="url(#cyanPink)" stroke-width="3"/>
+    <rect x="96" y="112" width="552" height="356" rx="28" fill="url(#panel)" stroke="#1f2a44"/>
+  </g>
+
+  <g transform="translate(132 164)">
+    <text class="mono tiny" fill="#22d3ee" x="0" y="0">CURRENT MAIN QUEST</text>
+    <text class="sans" fill="#f8fafc" x="0" y="72" font-size="70" font-weight="900" letter-spacing="1">MEMOLENS</text>
+    <text class="sans" fill="#f8fafc" x="0" y="118" font-size="28" font-weight="850">Aby Daniel Varghese</text>
+    <text class="sans" fill="#cbd5e1" x="0" y="154" font-size="23" font-weight="700">Full-stack developer building product-ready apps</text>
+    <text class="sans" fill="#94a3b8" x="0" y="197" font-size="19">Mobile, web, APIs, data workflows and AI-assisted product experiences.</text>
+
+    <g transform="translate(0 242)">
+      <rect x="0" y="0" width="132" height="44" rx="22" fill="#082f49" stroke="#22d3ee"/>
+      <text class="mono tiny" fill="#e0f2fe" x="66" y="28" text-anchor="middle">REACT NATIVE</text>
+      <rect x="148" y="0" width="84" height="44" rx="22" fill="#2a1020" stroke="#fb7185"/>
+      <text class="mono tiny" fill="#ffe4e6" x="190" y="28" text-anchor="middle">EXPO</text>
+      <rect x="248" y="0" width="122" height="44" rx="22" fill="#2a2207" stroke="#facc15"/>
+      <text class="mono tiny" fill="#fef9c3" x="309" y="28" text-anchor="middle">TYPESCRIPT</text>
+      <rect x="386" y="0" width="92" height="44" rx="22" fill="#052e2b" stroke="#14b8a6"/>
+      <text class="mono tiny" fill="#ccfbf1" x="432" y="28" text-anchor="middle">PYTHON</text>
+    </g>
+  </g>
+
+  <g transform="translate(730 88)">
+    <g class="dash" fill="none" stroke="#334155" stroke-width="2">
+      <path d="M10 362C120 286 260 334 392 246"/>
+      <path d="M66 140C176 86 296 120 438 64"/>
+    </g>
+
+    <g class="floatB" filter="url(#shadow)" transform="translate(130 108)">
+      <rect x="0" y="0" width="205" height="330" rx="34" fill="#06111f" stroke="#22d3ee" stroke-width="3"/>
+      <g clip-path="url(#phoneClip)">
+        <rect width="205" height="330" fill="#091527"/>
+        <rect x="22" y="58" width="52" height="52" rx="12" fill="#10233b" stroke="#1f4569"/>
+        <rect x="85" y="58" width="52" height="52" rx="12" fill="#10233b" stroke="#1f4569"/>
+        <rect x="148" y="58" width="52" height="52" rx="12" fill="#10233b" stroke="#1f4569"/>
+        <rect x="22" y="126" width="156" height="18" rx="9" fill="#1e293b"/>
+        <rect x="22" y="158" width="112" height="18" rx="9" fill="#152136"/>
+        <rect x="22" y="206" width="70" height="70" rx="16" fill="#0e7490" opacity="0.75"/>
+        <rect x="108" y="206" width="70" height="70" rx="16" fill="#fb7185" opacity="0.75"/>
+        <path class="pulse" d="M32 268L70 226l38 42z" fill="#facc15" opacity="0.86"/>
+        <path class="pulse" d="M116 268l38-42 38 42z" fill="#22d3ee" opacity="0.88"/>
+        <rect x="52" y="18" width="104" height="14" rx="7" fill="#020617"/>
+      </g>
+    </g>
+
+    <g class="floatA" filter="url(#softGlow)">
+      <path d="M196 80h120l-118 392H78z" fill="#67e8f9" opacity="0.52"/>
+      <path d="M338 92h82L304 472h-82z" fill="#fb7185" opacity="0.68"/>
+      <path d="M146 126h60L98 472H42z" fill="#e0f2fe" opacity="0.62"/>
+      <path d="M422 128h112L420 472H308z" fill="#475569" opacity="0.42"/>
+    </g>
+
+    <g class="glint">
+      <path d="M190 82h20l-116 390H74z" fill="#ffffff" opacity="0.8"/>
+    </g>
+
+    <g class="floatA" transform="translate(402 72)">
+      <rect x="0" y="0" width="86" height="58" rx="14" fill="#1e1b4b" stroke="#fb7185" stroke-width="2"/>
+      <circle cx="23" cy="28" r="8" fill="#fb7185"/>
+      <path d="M28 38l20-18 28 18z" fill="#94a3b8"/>
+    </g>
+
+    <g class="floatA" transform="translate(46 320)">
+      <rect x="0" y="0" width="352" height="42" rx="21" fill="#020617" stroke="#1f2937"/>
+      <circle cx="28" cy="21" r="8" fill="#22d3ee"/>
+      <text class="mono tiny" fill="#f8fafc" x="54" y="26">LOCAL-FIRST GALLERY</text>
+      <text class="mono tiny" fill="#fb7185" x="246" y="26">LIVE BUILD</text>
+    </g>
+  </g>
+
+  <g transform="translate(68 560)">
+    <rect x="0" y="0" width="154" height="34" fill="#020617"/>
+    <text class="mono tiny" fill="#e0f2fe" x="77" y="23" text-anchor="middle">MEMOLENS</text>
+    <rect x="164" y="0" width="136" height="34" fill="#22d3ee"/>
+    <text class="mono tiny" fill="#02111b" x="232" y="23" text-anchor="middle">MAIN QUEST</text>
+    <rect x="310" y="0" width="130" height="34" fill="#020617"/>
+    <text class="mono tiny" fill="#f8fafc" x="375" y="23" text-anchor="middle">FULL STACK</text>
+    <rect x="450" y="0" width="172" height="34" fill="#fb7185"/>
+    <text class="mono tiny" fill="#fff1f2" x="536" y="23" text-anchor="middle">MOBILE WEB API</text>
+    <rect x="632" y="0" width="126" height="34" fill="#020617"/>
+    <text class="mono tiny" fill="#e0f2fe" x="695" y="23" text-anchor="middle">OPEN ROLES</text>
+    <rect x="768" y="0" width="230" height="34" fill="#facc15"/>
+    <text class="mono tiny" fill="#111827" x="883" y="23" text-anchor="middle">SOFTWARE DEVELOPER</text>
+  </g>
+</svg>
