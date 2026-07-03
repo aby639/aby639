@@ -1,6 +1,6 @@
 <svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Aby Daniel Varghese animated greeting terminal</title>
-  <desc id="desc">A GitHub-safe animated greeting panel introducing Aby Daniel Varghese and his current build focus.</desc>
+  <title id="title">Aby Daniel Varghese animated hello terminal</title>
+  <desc id="desc">A GitHub-safe animated hello panel introducing Aby Daniel Varghese, MemoLens and his software development focus.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
       <stop stop-color="#02030a"/>
@@ -80,10 +80,10 @@
     <rect x="25" y="24" width="11" height="11" rx="5.5" fill="#fb7185"/>
     <rect x="44" y="24" width="11" height="11" rx="5.5" fill="#facc15"/>
     <rect x="63" y="24" width="11" height="11" rx="5.5" fill="#14b8a6"/>
-    <text x="25" y="70" class="mono" font-size="18" font-weight="850" fill="#22d3ee">$ hello visitor</text>
-    <text id="lineA" x="25" y="104" class="display" font-size="34" font-weight="900" fill="#f8fafc">Welcome to Aby's build space.</text>
-    <text id="lineB" x="26" y="136" class="sans" font-size="17" font-weight="650" fill="#cbd5e1">I build mobile apps, APIs and AI-assisted products.</text>
-    <text id="lineC" x="26" y="154" class="mono" font-size="13" font-weight="800" fill="#94a3b8">main quest: MemoLens | current mode: product polish</text>
+    <text x="25" y="70" class="mono" font-size="18" font-weight="850" fill="#22d3ee">$ whoami</text>
+    <text id="lineA" x="25" y="104" class="display" font-size="34" font-weight="900" fill="#f8fafc">Hey, I'm Aby Daniel.</text>
+    <text id="lineB" x="26" y="136" class="sans" font-size="17" font-weight="650" fill="#cbd5e1">Full-stack developer building mobile apps, APIs and AI tools.</text>
+    <text id="lineC" x="26" y="154" class="mono" font-size="13" font-weight="800" fill="#94a3b8">explore: MemoLens | product builds | contribution flow</text>
     <rect id="cursor" x="628" y="140" width="10" height="17" fill="#67e8f9"/>
   </g>
 
