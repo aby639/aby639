@@ -1,38 +1,94 @@
-[![MasterHead](https://camo.githubusercontent.com/ba9f3bd30647e352a3f5e1e45eb45c6ec7bad6155cd16aaedf4a426738da0ca5/68747470733a2f2f696e646f616e616c79746963612e636f6d2f7374617469632f696d616765732f62616e6e6572722e676966)](https://aby-359.io)
-<h1 align="center">Hi 👋, I'm ABY DANIEL VARGHESE</h1>
-<h3 align="center">Iam A Python Developer And Welcome To My Profile</h3>
-<img align="right" alt="Coding" width="400" src="https://www.sarvika.com/wp-content/uploads/2021/03/Backend-Developer-Python-GIF-Dribble.gif">
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=aby-359&label=Profile%20views&color=0e75b6&style=flat" alt="aby-359" /> </p>
-<p align="left"> <a href="https://twitter.com/danielv26881550" target="blank"><img src="https://img.shields.io/twitter/follow/danielv26881550?logo=twitter&style=for-the-badge" alt="danielv26881550" /></a> </p>
+<div align="center">
 
-- 🔭 I’m currently working on **python django Framework**
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:06b6d4,100:111827&height=190&section=header&text=Aby%20Daniel%20Varghese&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=MSc%20IT%20with%20Web%20Development%20%7C%20Full-stack%20Developer&descAlignY=58&descSize=16" alt="Aby Daniel Varghese banner" />
 
-- 🌱 I’m currently learning **django,flask**
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=720&lines=Python+%7C+Django+%7C+React+%7C+TypeScript;Building+web+apps%2C+APIs+and+AI-assisted+tools;Learning+fast%2C+shipping+clean%2C+improving+every+week" alt="Typing animation" />
 
-- 👯 I’m looking to collaborate on **Python developer jobs**
+<br>
 
-- 🤝 I’m looking for help with **Jobs in python**
+<a href="mailto:sunnyvarghese25007@gmail.com">
+  <img src="https://img.shields.io/badge/Email-0f172a?style=for-the-badge&logo=gmail&logoColor=22d3ee" alt="Email" />
+</a>
+<a href="https://www.linkedin.com/in/aby639">
+  <img src="https://img.shields.io/badge/LinkedIn-0f172a?style=for-the-badge&logo=linkedin&logoColor=22d3ee" alt="LinkedIn" />
+</a>
+<a href="https://github.com/aby639">
+  <img src="https://img.shields.io/badge/GitHub-0f172a?style=for-the-badge&logo=github&logoColor=22d3ee" alt="GitHub" />
+</a>
+<img src="https://komarev.com/ghpvc/?username=aby639&label=Profile%20views&color=22d3ee&style=for-the-badge" alt="Profile views" />
 
-- 💬 Ask me about **django,tkinter,python turtle**
+</div>
 
-- 📫 How to reach me **sunnyvarghese25007@gmail.com**
+---
 
-- ⚡ Fun fact **Iam cool**
+### About me
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/danielv26881550" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="danielv26881550" height="30" width="40" /></a>
-<a href="https://www.linkedin.com/in/aby359" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="linkedin.com/in/aby-d-varghese-360795197" height="30" width="40" /></a>
-<a href="https://fb.com/aby daniel varghese" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="aby daniel varghese" height="30" width="40" /></a>
-<a href="https://instagram.com/aby__359" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="aby__359" height="30" width="40" /></a>
-<a href="https://www.youtube.com/c/@noahparadise982" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="@noahparadise982" height="30" width="40" /></a>
-</p>
+I am an MSc IT with Web Development student at UWS Paisley, focused on building practical web products with clean interfaces, reliable backends and thoughtful user flows.
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/adobe-xd.svg" alt="xd" width="40" height="40"/> </a> </p>
+I started with Python and Django, and I am now growing into full-stack development with React, TypeScript, APIs, databases and AI-assisted tools. I like projects that turn a simple idea into something people can actually open, use and understand.
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=aby-359&show_icons=true&locale=en&layout=compact" alt="aby-359" /></p>
+```txt
+Current focus  : Full-stack web apps, API design, React frontends
+Core stack     : Python, Django, React, TypeScript, JavaScript
+Also exploring : AI tools, product UI, database-backed applications
+Location       : United Kingdom
+```
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=aby-359&show_icons=true&locale=en" alt="aby-359" /></p>
+---
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=aby-359&" alt="aby-359" /></p>
+### Tech I use
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=py,django,flask,js,ts,react,html,css,tailwind,bootstrap,mysql,postgres,sqlite,firebase,git,github,vscode,figma&theme=dark" alt="Tech stack icons" />
+</div>
+
+---
+
+### Featured work
+
+| Project | What it shows |
+|---|---|
+| [KPA-ERP-FE](https://github.com/aby639/KPA-ERP-FE) | Frontend work for an ERP-style product interface and business workflow screens. |
+| [Backend-API-Development](https://github.com/aby639/Backend-API-Development) | Backend API practice with Python, structured endpoints and data flow. |
+| [chinook-album-manager](https://github.com/aby639/chinook-album-manager) | Database-backed CRUD application built around album management. |
+| [product-explorer](https://github.com/aby639/product-explorer) | Product exploration UI with a focus on browsing and interaction. |
+| [Travel_Agency_Landing_Page](https://github.com/aby639/Travel_Agency_Landing_Page) | Frontend landing page work with visual layout and responsive structure. |
+| [Qr-Code-Generator](https://github.com/aby639/Qr-Code-Generator) | Utility project for generating QR codes from user input. |
+
+---
+
+### What I am building toward
+
+- Cleaner portfolio projects with strong README files, screenshots and live demos.
+- Better Django and API architecture for real-world web apps.
+- React interfaces that feel polished, fast and easy to use.
+- AI-assisted tools that solve small practical problems instead of just looking impressive.
+
+---
+
+### GitHub activity
+
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=aby639&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="Aby's GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aby639&layout=compact&theme=tokyonight&hide_border=true" alt="Aby's top languages" />
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=aby639&theme=tokyonight&hide_border=true" alt="GitHub streak stats" />
+</div>
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=aby639&theme=algolia&no-frame=true&no-bg=true&margin-w=12&column=4" alt="GitHub profile trophies" />
+</div>
+
+---
+
+### A little more
+
+I am interested in roles and collaborations around Python, Django, React and full-stack web development. I care about learning in public, improving the small details and making each project a bit sharper than the last one.
+
+<div align="center">
+
+**Open to learning, building and collaborating.**
+
+</div>
