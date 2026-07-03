@@ -27,6 +27,16 @@
 
 ---
 
+## Welcome transmission
+
+<div align="center">
+
+<img src="./assets/greeting-terminal.svg" alt="Animated greeting terminal for Aby Daniel Varghese" width="100%" />
+
+</div>
+
+---
+
 ## Main quest: MemoLens
 
 <table>
