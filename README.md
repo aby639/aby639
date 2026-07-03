@@ -72,7 +72,7 @@
 ```txt
 Name           : Aby Daniel Varghese
 Focus          : Full-stack development, mobile apps, APIs and AI tools
-Study          : MSc IT with Web Development at UWS Paisley
+Education      : MSc IT with Web Development, UWS Paisley (expected 2027)
 Current energy : Turn portfolio projects into polished product proof
 Open to        : full-stack, Python, Django, React and software roles
 ```
