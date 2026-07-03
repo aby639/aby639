@@ -1,92 +1,128 @@
-<svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Aby Daniel project system</title>
-  <desc id="desc">A dark glass project board showing MemoLens, Product Explorer, RAG News Chatbot and KPA Backend API.</desc>
+<svg width="1200" height="560" viewBox="0 0 1200 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Aby Daniel Varghese project anime radar</title>
+  <desc id="desc">A cinematic project radar showing MemoLens as the central build with supporting full-stack, AI and backend projects around it.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="430" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#020617"/>
-      <stop offset="1" stop-color="#111827"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#02030a"/>
+      <stop offset=".46" stop-color="#081120"/>
+      <stop offset="1" stop-color="#121826"/>
     </linearGradient>
-    <linearGradient id="edge" x1="105" y1="56" x2="1100" y2="380" gradientUnits="userSpaceOnUse">
+    <linearGradient id="edge" x1="95" y1="52" x2="1088" y2="444" gradientUnits="userSpaceOnUse">
       <stop stop-color="#22d3ee"/>
-      <stop offset=".55" stop-color="#8b5cf6"/>
+      <stop offset=".34" stop-color="#fb7185"/>
+      <stop offset=".66" stop-color="#facc15"/>
       <stop offset="1" stop-color="#14b8a6"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(615 214) rotate(90) scale(270 520)">
-      <stop stop-color="#22d3ee" stop-opacity=".26"/>
-      <stop offset=".55" stop-color="#22d3ee" stop-opacity=".07"/>
+    <radialGradient id="pulse" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 318) rotate(90) scale(290 520)">
+      <stop stop-color="#22d3ee" stop-opacity=".28"/>
+      <stop offset=".54" stop-color="#fb7185" stop-opacity=".08"/>
       <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
     </radialGradient>
     <filter id="shadow" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB">
-      <feDropShadow dx="0" dy="20" stdDeviation="18" flood-color="#000" flood-opacity=".35"/>
+      <feDropShadow dx="0" dy="22" stdDeviation="18" flood-color="#000000" flood-opacity=".38"/>
+    </filter>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="0" stdDeviation="12" flood-color="#22d3ee" flood-opacity=".64"/>
     </filter>
     <style>
-      .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif; }
-      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace; }
+      .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+      .display { font-family: Orbitron, Rajdhani, Eurostile, "Arial Black", Impact, sans-serif; }
       @media (prefers-reduced-motion: no-preference) {
-        #beam { animation: beam 4s ease-in-out infinite; }
-        #nodeA { animation: lift 5s ease-in-out infinite; }
-        #nodeB { animation: lift 5s ease-in-out infinite .6s; }
-        #nodeC { animation: lift 5s ease-in-out infinite 1.1s; }
-        #nodeD { animation: lift 5s ease-in-out infinite 1.6s; }
+        #radar { animation: radar 5.6s linear infinite; transform-origin: 600px 318px; }
+        #orbitA { animation: orbitA 8s ease-in-out infinite; }
+        #orbitB { animation: orbitB 8s ease-in-out infinite .7s; }
+        #orbitC { animation: orbitA 8s ease-in-out infinite 1.4s; }
+        #orbitD { animation: orbitB 8s ease-in-out infinite 2.1s; }
+        #core { animation: core 3.8s ease-in-out infinite; transform-origin: 600px 311px; }
+        #dataLine { animation: dataLine 4.2s ease-in-out infinite; }
       }
-      @keyframes beam {
-        0%, 100% { opacity: .25; transform: translateX(-22px); }
-        50% { opacity: .85; transform: translateX(24px); }
+      @keyframes radar {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
       }
-      @keyframes lift {
+      @keyframes orbitA {
         0%, 100% { transform: translateY(0); }
-        50% { transform: translateY(-8px); }
+        50% { transform: translateY(-12px); }
+      }
+      @keyframes orbitB {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(10px); }
+      }
+      @keyframes core {
+        0%, 100% { transform: scale(1); opacity: .92; }
+        50% { transform: scale(1.035); opacity: 1; }
+      }
+      @keyframes dataLine {
+        0%, 100% { stroke-dashoffset: 0; opacity: .45; }
+        50% { stroke-dashoffset: -80; opacity: 1; }
       }
     </style>
   </defs>
 
-  <rect width="1200" height="430" rx="30" fill="url(#bg)"/>
-  <rect width="1200" height="430" rx="30" fill="url(#glow)"/>
-  <path d="M64 338C230 274 348 266 524 288C729 314 890 322 1136 245" stroke="#22d3ee" stroke-opacity=".15"/>
-  <path d="M110 92H1090M110 338H1090M174 40V390M316 40V390M458 40V390M600 40V390M742 40V390M884 40V390M1026 40V390" stroke="#38bdf8" stroke-opacity=".1"/>
+  <rect width="1200" height="560" rx="34" fill="url(#bg)"/>
+  <rect width="1200" height="560" rx="34" fill="url(#pulse)"/>
+  <rect x="38" y="36" width="1124" height="488" rx="30" fill="#020617" fill-opacity=".42" stroke="url(#edge)" stroke-width="2"/>
 
-  <text x="74" y="75" class="mono" font-size="16" font-weight="800" fill="#22d3ee">PROJECT SYSTEM</text>
-  <text x="74" y="122" class="sans" font-size="42" font-weight="850" fill="#f8fafc">Recent builds with product weight</text>
-  <text x="76" y="154" class="sans" font-size="18" fill="#94a3b8">Mobile app, product data platform, RAG assistant and production-style backend APIs.</text>
-
-  <g id="beam">
-    <path d="M196 244H1010" stroke="url(#edge)" stroke-width="3" stroke-linecap="round" stroke-dasharray="10 16"/>
-    <circle cx="603" cy="244" r="7" fill="#22d3ee"/>
+  <g opacity=".64">
+    <path d="M70 440C250 365 426 348 596 379C779 412 944 451 1132 363" stroke="#22d3ee" stroke-opacity=".15"/>
+    <path d="M92 96H1110M92 475H1110M178 60V505M318 60V505M458 60V505M598 60V505M738 60V505M878 60V505M1018 60V505" stroke="#38bdf8" stroke-opacity=".08"/>
   </g>
 
-  <g id="nodeA" filter="url(#shadow)">
-    <rect x="92" y="203" width="244" height="142" rx="24" fill="#08111f" stroke="#22d3ee" stroke-opacity=".7"/>
-    <circle cx="126" cy="237" r="16" fill="#22d3ee" fill-opacity=".18"/>
-    <text x="154" y="235" class="sans" font-size="24" font-weight="850" fill="#f8fafc">MemoLens</text>
-    <text x="154" y="258" class="mono" font-size="11" fill="#22d3ee">FLAGSHIP MOBILE APP</text>
-    <text x="118" y="297" class="sans" font-size="14" fill="#cbd5e1">Private local-first gallery</text>
-    <text x="118" y="321" class="mono" font-size="12" fill="#94a3b8">Expo  React Native  TS</text>
+  <text x="78" y="88" class="mono" font-size="14" font-weight="850" fill="#22d3ee">ABY BUILD RADAR</text>
+  <text x="78" y="135" class="sans" font-size="40" font-weight="900" fill="#f8fafc">Projects with product energy</text>
+  <text x="80" y="166" class="sans" font-size="17" fill="#94a3b8">MemoLens is the flagship. The rest show backend, data, AI and full-stack range.</text>
+
+  <g transform="translate(600 318)">
+    <circle r="152" stroke="#334155"/>
+    <circle r="106" stroke="#334155" stroke-dasharray="7 12"/>
+    <circle r="60" stroke="#334155"/>
+  </g>
+  <g id="radar" opacity=".9">
+    <path d="M600 318L753 211C780 248 792 286 789 327L600 318Z" fill="#22d3ee" fill-opacity=".16"/>
+    <path d="M600 318L760 319" stroke="#22d3ee" stroke-width="2"/>
+  </g>
+  <path id="dataLine" d="M267 318H477M723 318H932M600 166V255M600 380V464" stroke="url(#edge)" stroke-width="2" stroke-dasharray="12 12"/>
+
+  <g id="core" filter="url(#glow)">
+    <rect x="486" y="247" width="228" height="142" rx="30" fill="#050914" stroke="#22d3ee" stroke-width="2"/>
+    <text x="530" y="292" class="display" font-size="30" font-weight="900" fill="#f8fafc">MemoLens</text>
+    <text x="531" y="320" class="mono" font-size="11" font-weight="850" fill="#67e8f9">FLAGSHIP MOBILE APP</text>
+    <text x="530" y="353" class="sans" font-size="14" fill="#cbd5e1">Private local-first memory gallery</text>
+    <text x="530" y="374" class="mono" font-size="11" fill="#94a3b8">Expo | React Native | TypeScript</text>
   </g>
 
-  <g id="nodeB" filter="url(#shadow)">
-    <rect x="360" y="188" width="244" height="142" rx="24" fill="#08111f" stroke="#8b5cf6" stroke-opacity=".65"/>
-    <circle cx="394" cy="222" r="16" fill="#8b5cf6" fill-opacity=".18"/>
-    <text x="422" y="220" class="sans" font-size="23" font-weight="850" fill="#f8fafc">Product Explorer</text>
-    <text x="422" y="243" class="mono" font-size="11" fill="#c4b5fd">FULL STACK DATA APP</text>
-    <text x="386" y="282" class="sans" font-size="14" fill="#cbd5e1">Scrape, normalise, browse</text>
-    <text x="386" y="306" class="mono" font-size="12" fill="#94a3b8">Next  Nest  Postgres</text>
+  <g id="orbitA" filter="url(#shadow)">
+    <rect x="112" y="266" width="220" height="116" rx="24" fill="#07111f" stroke="#fb7185" stroke-opacity=".84"/>
+    <text x="138" y="303" class="sans" font-size="22" font-weight="850" fill="#f8fafc">Product Explorer</text>
+    <text x="139" y="328" class="mono" font-size="10" font-weight="850" fill="#fda4af">FULL-STACK DATA APP</text>
+    <text x="138" y="360" class="mono" font-size="11" fill="#94a3b8">Next | Nest | Postgres</text>
   </g>
 
-  <g id="nodeC" filter="url(#shadow)">
-    <rect x="628" y="203" width="244" height="142" rx="24" fill="#08111f" stroke="#38bdf8" stroke-opacity=".62"/>
-    <circle cx="662" cy="237" r="16" fill="#38bdf8" fill-opacity=".18"/>
-    <text x="690" y="235" class="sans" font-size="24" font-weight="850" fill="#f8fafc">RAG News</text>
-    <text x="690" y="258" class="mono" font-size="11" fill="#67e8f9">AI RETRIEVAL ASSISTANT</text>
-    <text x="654" y="297" class="sans" font-size="14" fill="#cbd5e1">Grounded answers + citations</text>
-    <text x="654" y="321" class="mono" font-size="12" fill="#94a3b8">React  Qdrant  Gemini</text>
+  <g id="orbitB" filter="url(#shadow)">
+    <rect x="850" y="266" width="220" height="116" rx="24" fill="#07111f" stroke="#facc15" stroke-opacity=".82"/>
+    <text x="876" y="303" class="sans" font-size="22" font-weight="850" fill="#f8fafc">RAG News</text>
+    <text x="877" y="328" class="mono" font-size="10" font-weight="850" fill="#fde68a">GROUNDED AI ASSISTANT</text>
+    <text x="876" y="360" class="mono" font-size="11" fill="#94a3b8">React | Qdrant | Gemini</text>
   </g>
 
-  <g id="nodeD" filter="url(#shadow)">
-    <rect x="896" y="188" width="244" height="142" rx="24" fill="#08111f" stroke="#14b8a6" stroke-opacity=".62"/>
-    <circle cx="930" cy="222" r="16" fill="#14b8a6" fill-opacity=".18"/>
-    <text x="958" y="220" class="sans" font-size="24" font-weight="850" fill="#f8fafc">KPA API</text>
-    <text x="958" y="243" class="mono" font-size="11" fill="#5eead4">BACKEND SYSTEM</text>
-    <text x="922" y="282" class="sans" font-size="14" fill="#cbd5e1">Structured submissions</text>
-    <text x="922" y="306" class="mono" font-size="12" fill="#94a3b8">FastAPI  SQLAlchemy</text>
+  <g id="orbitC" filter="url(#shadow)">
+    <rect x="350" y="412" width="218" height="108" rx="24" fill="#07111f" stroke="#14b8a6" stroke-opacity=".82"/>
+    <text x="375" y="448" class="sans" font-size="22" font-weight="850" fill="#f8fafc">KPA API</text>
+    <text x="376" y="473" class="mono" font-size="10" font-weight="850" fill="#5eead4">BACKEND SUBMISSION FLOW</text>
+    <text x="376" y="503" class="mono" font-size="11" fill="#94a3b8">FastAPI | SQLAlchemy</text>
+  </g>
+
+  <g id="orbitD" filter="url(#shadow)">
+    <rect x="632" y="412" width="238" height="104" rx="24" fill="#07111f" stroke="#38bdf8" stroke-opacity=".8"/>
+    <text x="658" y="449" class="sans" font-size="22" font-weight="850" fill="#f8fafc">Portfolio polish</text>
+    <text x="659" y="474" class="mono" font-size="10" font-weight="850" fill="#67e8f9">README | DEMOS | UI SYSTEMS</text>
+    <text x="659" y="503" class="mono" font-size="11" fill="#94a3b8">Turning builds into proof</text>
+  </g>
+
+  <g transform="translate(78 190)">
+    <rect width="370" height="46" rx="23" fill="#020617" fill-opacity=".75" stroke="#334155"/>
+    <circle cx="28" cy="23" r="7" fill="#22d3ee"/>
+    <text x="50" y="29" class="mono" font-size="12" font-weight="850" fill="#cbd5e1">LESS BASIC STATS, MORE REAL PRODUCT SIGNAL</text>
   </g>
 </svg>
