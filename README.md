@@ -46,7 +46,7 @@
     <td width="42%" align="center">
       <img src="https://img.shields.io/badge/Local_first-storage-020617?style=for-the-badge&labelColor=020617&color=22d3ee" alt="Local first storage" />
       <br>
-      <img src="https://img.shields.io/badge/Capture-search-share-020617?style=for-the-badge&labelColor=020617&color=fb7185" alt="Capture search share" />
+      <img src="https://img.shields.io/badge/Capture-search_share-020617?style=for-the-badge&labelColor=020617&color=fb7185" alt="Capture search share" />
       <br>
       <img src="https://img.shields.io/badge/Google_sign_in-EAS_update-020617?style=for-the-badge&labelColor=020617&color=facc15" alt="Google sign in EAS update" />
       <br>
