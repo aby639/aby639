@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">Aby Daniel developer system console</title>
+  <desc id="desc">Animated developer console with non-face cyber prism, project signals and build stack.</desc>
+  <defs>
+    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#fb7185"/>
+      <stop offset="1" stop-color="#facc15"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#081225"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e0f2fe" stop-opacity="0.92"/>
+      <stop offset="0.45" stop-color="#22d3ee" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#fb7185" stop-opacity="0.42"/>
+    </linearGradient>
+    <filter id="glow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000814" flood-opacity="0.65"/>
+    </filter>
+    <style>
+      .sans{font-family:Inter,Segoe UI,Arial,sans-serif}
+      .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+      .tiny{font-size:12px;font-weight:800;letter-spacing:1.7px;text-transform:uppercase}
+      .body{font-size:18px;font-weight:650}
+      .scan{animation:scan 4.2s ease-in-out infinite}
+      .dash{stroke-dasharray:7 15;animation:dash 8s linear infinite}
+      .float{animation:float 5.4s ease-in-out infinite}
+      .floatB{animation:floatB 6.2s ease-in-out infinite}
+      .pulse{animation:pulse 2.8s ease-in-out infinite}
+      .glint{animation:glint 3.6s ease-in-out infinite}
+      @keyframes scan{0%{transform:translateX(-190px);opacity:0}25%{opacity:.45}62%{transform:translateX(620px);opacity:.1}100%{transform:translateX(620px);opacity:0}}
+      @keyframes dash{to{stroke-dashoffset:-220}}
+      @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+      @keyframes floatB{0%,100%{transform:translateY(0) rotate(-7deg)}50%{transform:translateY(10px) rotate(-3deg)}}
+      @keyframes pulse{0%,100%{opacity:.5}50%{opacity:1}}
+      @keyframes glint{0%{transform:translateX(-180px);opacity:0}38%{opacity:.8}70%,100%{transform:translateX(250px);opacity:0}}
+    </style>
+  </defs>
+
+  <rect width="1200" height="430" rx="28" fill="#020617"/>
+  <rect x="16" y="16" width="1168" height="398" rx="28" fill="#050b1d" stroke="url(#frame)" stroke-width="3"/>
+  <path d="M42 332C222 270 382 318 548 258S880 188 1164 248" fill="none" stroke="#13223a" stroke-width="2"/>
+  <path d="M60 86H1140M60 344H1140" stroke="#101b30"/>
+
+  <g transform="translate(66 66)">
+    <text class="mono tiny" fill="#22d3ee" x="0" y="0">ABY SYSTEM CONSOLE</text>
+    <text class="sans" fill="#f8fafc" x="0" y="48" font-size="38" font-weight="900">Build signal: product polish</text>
+    <text class="sans body" fill="#94a3b8" x="0" y="84">A work-focused profile for projects, stack, learning and proof.</text>
+
+    <g transform="translate(0 122)">
+      <rect x="0" y="0" width="430" height="54" rx="17" fill="#030817" stroke="#1f2a44"/>
+      <circle cx="26" cy="27" r="8" fill="#22d3ee"/>
+      <text class="mono tiny" fill="#e0f2fe" x="48" y="32">PORTFOLIO_STATUS</text>
+      <text class="mono tiny" fill="#facc15" x="246" y="32">MEMOLENS FIRST</text>
+    </g>
+
+    <g transform="translate(0 196)">
+      <rect x="0" y="0" width="164" height="72" rx="18" fill="#06111f" stroke="#22d3ee"/>
+      <text class="mono tiny" fill="#22d3ee" x="18" y="26">BACKEND</text>
+      <text class="sans body" fill="#f8fafc" x="18" y="52">FastAPI Django</text>
+      <rect x="184" y="0" width="164" height="72" rx="18" fill="#06111f" stroke="#fb7185"/>
+      <text class="mono tiny" fill="#fb7185" x="202" y="26">FRONTEND</text>
+      <text class="sans body" fill="#f8fafc" x="202" y="52">React TypeScript</text>
+      <rect x="368" y="0" width="164" height="72" rx="18" fill="#06111f" stroke="#facc15"/>
+      <text class="mono tiny" fill="#facc15" x="386" y="26">MOBILE</text>
+      <text class="sans body" fill="#f8fafc" x="386" y="52">Expo RN</text>
+    </g>
+  </g>
+
+  <g transform="translate(648 44)">
+    <path class="dash" d="M34 166H460M244 22V324" fill="none" stroke="#334155" stroke-width="2"/>
+    <circle cx="244" cy="166" r="108" fill="none" stroke="#12395a" stroke-width="2"/>
+    <circle cx="244" cy="166" r="72" fill="none" stroke="#22d3ee" stroke-opacity=".35" stroke-width="2"/>
+
+    <g class="floatB" filter="url(#shadow)" transform="translate(112 70)">
+      <rect x="0" y="0" width="178" height="236" rx="30" fill="#071426" stroke="#22d3ee" stroke-width="3"/>
+      <rect x="36" y="18" width="106" height="14" rx="7" fill="#020617"/>
+      <rect x="28" y="62" width="122" height="22" rx="11" fill="#13223a"/>
+      <rect x="28" y="104" width="50" height="50" rx="14" fill="#0e7490" opacity=".72"/>
+      <rect x="98" y="104" width="50" height="50" rx="14" fill="#fb7185" opacity=".70"/>
+      <path class="pulse" d="M38 146l38-34 34 34z" fill="#22d3ee"/>
+      <path class="pulse" d="M104 146l38-34 34 34z" fill="#facc15"/>
+      <rect x="28" y="178" width="122" height="13" rx="6.5" fill="#334155"/>
+      <rect x="28" y="204" width="92" height="13" rx="6.5" fill="#1e293b"/>
+    </g>
+
+    <g class="float" filter="url(#glow)">
+      <path d="M236 4h104L234 334H130z" fill="url(#beam)"/>
+      <path d="M378 28h76L360 334h-76z" fill="#fb7185" opacity=".58"/>
+      <path d="M96 56h54L0 334h-54z" fill="#e0f2fe" opacity=".38"/>
+      <path d="M462 68h112L456 334H344z" fill="#64748b" opacity=".32"/>
+    </g>
+
+    <g class="glint">
+      <path d="M220 6h18L124 334h-18z" fill="#ffffff" opacity=".78"/>
+    </g>
+
+    <g class="scan">
+      <rect x="44" y="46" width="24" height="250" fill="#22d3ee"/>
+    </g>
+
+    <g transform="translate(332 40)" class="float">
+      <rect x="0" y="0" width="112" height="50" rx="16" fill="#111827" stroke="#facc15" stroke-width="2"/>
+      <text class="mono tiny" fill="#facc15" x="56" y="31" text-anchor="middle">API</text>
+      <circle cx="88" cy="25" r="5" fill="#22d3ee"/>
+    </g>
+
+    <g transform="translate(168 318)">
+      <rect width="300" height="40" rx="20" fill="#020617" stroke="#1f2937"/>
+      <text class="mono tiny" fill="#e0f2fe" x="30" y="25">BUILD MODE</text>
+      <text class="mono tiny" fill="#fb7185" x="146" y="25">PRODUCT SIGNAL</text>
+    </g>
+  </g>
+</svg>
