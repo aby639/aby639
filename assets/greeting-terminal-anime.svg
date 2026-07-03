@@ -1,0 +1,121 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Aby Daniel Varghese animated hello terminal</title>
+  <desc id="desc">A GitHub-safe animated hello panel introducing Aby Daniel Varghese, MemoLens and his software development focus.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#02030a"/>
+      <stop offset=".5" stop-color="#07111f"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="60" y1="40" x2="1140" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22d3ee"/>
+      <stop offset=".38" stop-color="#fb7185"/>
+      <stop offset=".7" stop-color="#facc15"/>
+      <stop offset="1" stop-color="#14b8a6"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(927 156) rotate(90) scale(190 330)">
+      <stop stop-color="#22d3ee" stop-opacity=".28"/>
+      <stop offset=".58" stop-color="#22d3ee" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="24" stdDeviation="20" flood-color="#000000" flood-opacity=".36"/>
+    </filter>
+    <filter id="neon" x="-40%" y="-40%" width="180%" height="180%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="#22d3ee" flood-opacity=".55"/>
+    </filter>
+    <style>
+      .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+      .display { font-family: Orbitron, Rajdhani, Eurostile, "Arial Black", Impact, sans-serif; }
+      @media (prefers-reduced-motion: no-preference) {
+        #cursor { animation: blink 1s steps(2, start) infinite; }
+        #orbit { animation: orbit 7s linear infinite; transform-box: fill-box; transform-origin: center; }
+        #avatarInner { animation: float 5.8s ease-in-out infinite; }
+        #scan { animation: scan 4.6s ease-in-out infinite; }
+      }
+      @keyframes blink {
+        0%, 48% { opacity: 1; }
+        49%, 100% { opacity: 0; }
+      }
+      @keyframes lineA {
+        0% { clip-path: inset(0 100% 0 0); }
+        14%, 100% { clip-path: inset(0 0 0 0); }
+      }
+      @keyframes lineB {
+        0%, 18% { clip-path: inset(0 100% 0 0); }
+        42%, 100% { clip-path: inset(0 0 0 0); }
+      }
+      @keyframes lineC {
+        0%, 48% { clip-path: inset(0 100% 0 0); }
+        78%, 100% { clip-path: inset(0 0 0 0); }
+      }
+      @keyframes orbit {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-9px); }
+      }
+      @keyframes scan {
+        0% { transform: translateY(-180px); opacity: 0; }
+        20%, 75% { opacity: .72; }
+        100% { transform: translateY(190px); opacity: 0; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="300" rx="32" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="32" fill="url(#glow)"/>
+  <rect x="42" y="38" width="1116" height="224" rx="28" fill="#020617" fill-opacity=".58" stroke="url(#edge)" stroke-width="2"/>
+
+  <g opacity=".72">
+    <path d="M96 78H820M96 228H1104M180 58V242M324 58V242M468 58V242M612 58V242M756 58V242M900 58V242M1044 58V242" stroke="#38bdf8" stroke-opacity=".08"/>
+    <path d="M86 223C226 178 368 172 510 190C690 213 844 239 1112 174" stroke="#22d3ee" stroke-opacity=".16"/>
+  </g>
+
+  <g transform="translate(84 70)" filter="url(#shadow)">
+    <rect width="710" height="164" rx="24" fill="#050914" stroke="#1e293b"/>
+    <rect x="25" y="24" width="11" height="11" rx="5.5" fill="#fb7185"/>
+    <rect x="44" y="24" width="11" height="11" rx="5.5" fill="#facc15"/>
+    <rect x="63" y="24" width="11" height="11" rx="5.5" fill="#14b8a6"/>
+    <text x="25" y="70" class="mono" font-size="18" font-weight="850" fill="#22d3ee">$ whoami</text>
+    <text id="lineA" x="25" y="104" class="display" font-size="34" font-weight="900" fill="#f8fafc">Hey, I'm Aby Daniel.</text>
+    <text id="lineB" x="26" y="136" class="sans" font-size="17" font-weight="650" fill="#cbd5e1">Full-stack developer building mobile apps, APIs and AI tools.</text>
+    <text id="lineC" x="26" y="154" class="mono" font-size="13" font-weight="800" fill="#94a3b8">explore: MemoLens | product builds | contribution flow</text>
+    <rect id="cursor" x="628" y="140" width="10" height="17" fill="#67e8f9"/>
+  </g>
+
+  <g transform="translate(860 58)" filter="url(#shadow)">
+    <g id="avatarInner">
+      <rect x="0" y="0" width="260" height="184" rx="28" fill="#050914" fill-opacity=".86" stroke="#334155"/>
+      <circle cx="132" cy="84" r="70" fill="#020617" stroke="#334155"/>
+      <circle id="orbit" cx="132" cy="84" r="82" stroke="#22d3ee" stroke-width="2" stroke-dasharray="9 13"/>
+      <path d="M62 161C72 128 98 112 132 112C166 112 194 128 204 161V177H62V161Z" fill="#111827"/>
+      <path d="M86 166L111 126H153L177 166H86Z" fill="#172033"/>
+      <path d="M113 128L132 151L151 128" stroke="#22d3ee" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".7"/>
+      <path d="M82 85C83 43 113 20 150 23C188 27 211 56 204 96C190 68 167 55 137 57C110 59 92 68 82 85Z" fill="#020617"/>
+      <path d="M92 49C114 18 162 11 194 42C163 31 128 35 102 62Z" fill="#334155"/>
+      <path d="M72 88C82 58 109 38 142 38C179 38 202 61 202 96C202 130 174 154 139 156C101 158 73 126 72 88Z" fill="#d1d5db"/>
+      <path d="M96 110C104 142 122 163 143 163C164 163 184 143 190 110C181 151 158 174 132 172C109 170 94 147 96 110Z" fill="#0f172a"/>
+      <path d="M94 90C111 80 132 81 145 94C125 90 111 91 94 101V90Z" fill="#020617"/>
+      <path d="M153 94C169 80 190 81 205 96C184 91 169 93 153 104V94Z" fill="#020617"/>
+      <ellipse cx="122" cy="112" rx="15" ry="9" fill="#f8fafc"/>
+      <ellipse cx="178" cy="114" rx="15" ry="9" fill="#f8fafc"/>
+      <circle cx="122" cy="112" r="6" fill="#22d3ee"/>
+      <circle cx="178" cy="114" r="6" fill="#fb7185"/>
+      <path d="M148 116C141 131 143 139 155 144" stroke="#64748b" stroke-width="3" stroke-linecap="round"/>
+      <path d="M122 142C137 153 160 153 176 142C162 160 137 160 122 142Z" fill="#020617"/>
+      <path d="M78 91C99 62 133 51 183 58C155 41 102 42 78 91Z" fill="#020617"/>
+      <rect x="32" y="146" width="196" height="28" rx="14" fill="#020617" fill-opacity=".78" stroke="#334155"/>
+      <circle cx="52" cy="160" r="6" fill="#14b8a6"/>
+      <text x="70" y="164" class="mono" font-size="10" font-weight="850" fill="#cbd5e1">OPEN TO SOFTWARE ROLES</text>
+    </g>
+  </g>
+
+  <g id="scan">
+    <rect x="42" y="38" width="1116" height="36" fill="#22d3ee" fill-opacity=".08"/>
+    <rect x="42" y="72" width="1116" height="2" fill="#67e8f9" fill-opacity=".58"/>
+  </g>
+</svg>
