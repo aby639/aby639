@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://github.com/aby639/my-gallery">
-  <img src="./assets/profile-hero-work.svg" alt="Aby Daniel Varghese - anime cyber MemoLens focused full-stack developer profile" width="100%" />
+  <img src="./assets/profile-hero-prism.svg" alt="Aby Daniel Varghese - cyber MemoLens focused full-stack developer profile" width="100%" />
 </a>
 
 <br>
@@ -31,7 +31,7 @@
 
 <div align="center">
 
-<img src="./assets/greeting-terminal-anime.svg" alt="Animated anime hello terminal for Aby Daniel Varghese" width="100%" />
+<img src="./assets/greeting-terminal-prism.svg" alt="Animated cyber hello terminal for Aby Daniel Varghese" width="100%" />
 
 </div>
 
@@ -114,7 +114,7 @@ I like the middle space where backend logic, databases and frontend experience m
 
 <div align="center">
 
-<img src="./assets/anime-console-v2.svg" alt="Aby Daniel animated developer console" width="100%" />
+<img src="./assets/anime-console-prism.svg" alt="Aby Daniel animated developer console" width="100%" />
 
 </div>
 
