@@ -6,7 +6,9 @@
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=23&duration=2600&pause=800&color=22D3EE&center=true&vCenter=true&width=820&lines=MemoLens+is+my+current+flagship+build;Full-stack+developer+building+mobile%2C+web+and+API+products;Python+%7C+Django+%7C+React+Native+%7C+TypeScript+%7C+FastAPI" alt="Typing animation" />
+<img src="https://img.shields.io/badge/MemoLens-current_flagship-020617?style=for-the-badge&labelColor=020617&color=22d3ee" alt="MemoLens current flagship" />
+<img src="https://img.shields.io/badge/Full_stack-mobile_web_API-020617?style=for-the-badge&labelColor=020617&color=8b5cf6" alt="Full stack mobile web API" />
+<img src="https://img.shields.io/badge/Python_Django_React_Native_TypeScript-020617?style=for-the-badge&labelColor=020617&color=14b8a6" alt="Python Django React Native TypeScript" />
 
 <br>
 
@@ -41,8 +43,16 @@
         <a href="https://github.com/aby639/my-gallery"><strong>Open MemoLens repo</strong></a>
       </p>
     </td>
-    <td width="42%">
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=aby639&repo=my-gallery&theme=tokyonight&hide_border=true&title_color=22d3ee&icon_color=22d3ee" alt="MemoLens repository card" />
+    <td width="42%" align="center">
+      <a href="https://github.com/aby639/my-gallery">
+        <img src="https://img.shields.io/badge/Open-MemoLens-22d3ee?style=for-the-badge&logo=github&logoColor=020617" alt="Open MemoLens" />
+      </a>
+      <br><br>
+      <img src="https://img.shields.io/badge/Local_first-storage-020617?style=for-the-badge&labelColor=020617&color=22d3ee" alt="Local first storage" />
+      <br>
+      <img src="https://img.shields.io/badge/Capture-search-share-020617?style=for-the-badge&labelColor=020617&color=8b5cf6" alt="Capture search share" />
+      <br>
+      <img src="https://img.shields.io/badge/Google_sign_in-EAS_update-020617?style=for-the-badge&labelColor=020617&color=14b8a6" alt="Google sign in EAS update" />
     </td>
   </tr>
 </table>
@@ -87,16 +97,7 @@ Open to        : full-stack, Python, Django, React and software roles
 <div align="center">
 
 <a href="https://github.com/aby639/my-gallery">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=aby639&repo=my-gallery&theme=tokyonight&hide_border=true&title_color=22d3ee&icon_color=22d3ee" alt="MemoLens repo card" />
-</a>
-<a href="https://github.com/aby639/product-explorer">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=aby639&repo=product-explorer&theme=tokyonight&hide_border=true&title_color=22d3ee&icon_color=22d3ee" alt="Product Explorer repo card" />
-</a>
-<a href="https://github.com/aby639/RAG-Powered-Chatbot-for-News-Websites">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=aby639&repo=RAG-Powered-Chatbot-for-News-Websites&theme=tokyonight&hide_border=true&title_color=22d3ee&icon_color=22d3ee" alt="RAG chatbot repo card" />
-</a>
-<a href="https://github.com/aby639/kpa-assignment">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=aby639&repo=kpa-assignment&theme=tokyonight&hide_border=true&title_color=22d3ee&icon_color=22d3ee" alt="KPA assignment repo card" />
+  <img src="./assets/project-system.svg" alt="Aby Daniel project system board" width="100%" />
 </a>
 
 </div>
@@ -112,18 +113,18 @@ Open to        : full-stack, Python, Django, React and software roles
 
 ## GitHub signal
 
-<div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=aby639&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&title_color=22d3ee&icon_color=22d3ee" alt="Aby's GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aby639&layout=compact&theme=tokyonight&hide_border=true&title_color=22d3ee" alt="Aby's top languages" />
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=aby639&theme=tokyonight&hide_border=true&ring=22d3ee&fire=22d3ee&currStreakLabel=22d3ee" alt="GitHub streak stats" />
-</div>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=aby639&theme=algolia&no-frame=true&no-bg=true&margin-w=10&column=6" alt="GitHub profile trophies" />
-</div>
+<table>
+  <tr>
+    <td><strong>28+</strong> public repositories</td>
+    <td><strong>Mobile</strong> apps with Expo and React Native</td>
+    <td><strong>Backend</strong> APIs with Python, Django and FastAPI</td>
+  </tr>
+  <tr>
+    <td><strong>Full stack</strong> product builds</td>
+    <td><strong>AI/RAG</strong> experiments with grounded answers</td>
+    <td><strong>Portfolio</strong> moving toward live demos and cleaner docs</td>
+  </tr>
+</table>
 
 ---
 
