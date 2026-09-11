@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="240" viewBox="0 0 1000 240" role="img" aria-labelledby="title desc">
+  <title id="title">Product Data Explorer — source to normalise to catalogue</title>
+  <desc id="desc">Project panel showing source product data flowing through normalisation into a catalogue. Product data with a consistent shape.</desc>
+  <rect width="1000" height="240" fill="#091712"/>
+  <path d="M26 8H991V223L982 232H9V25Z" fill="#10231b" stroke="#c5efb2" stroke-opacity=".4"/>
+  <path d="M30 16H347M982 28V207M17 34V218H141M807 224H973" fill="none" stroke="#c5efb2" stroke-opacity=".18"/>
+  <path d="M477 29L461 210" stroke="#c5efb2" stroke-opacity=".21"/>
+  <path d="M485 29L470 210" stroke="#c5efb2" stroke-opacity=".08"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="35" y="38" fill="#e8b777" font-family="'Courier New', monospace" font-size="12" font-weight="700" letter-spacing="2.1">03 / PUT THE PIECES IN PLACE</text>
+    <text x="31" y="103" fill="#f4f0df" font-size="50" font-weight="900" letter-spacing="-2">PRODUCT DATA</text>
+    <text x="31" y="160" fill="#c5efb2" font-size="58" font-weight="900" letter-spacing="-2.3">EXPLORER</text>
+    <text x="35" y="199" fill="#f4f0df" font-size="16">Product data with a consistent shape.</text>
+  </g>
+  <g fill="none" stroke="#c5efb2" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M520 94L559 83L572 133L533 145Z" stroke-opacity=".45"/>
+    <path d="M529 86H570V139H529Z"/>
+    <path d="M539 100H560M539 110H552M539 121H561M539 129H548"/>
+    <path d="M702 87H750L733 111V137L718 145V111Z"/>
+    <path d="M713 95H740M722 123V135"/>
+    <path d="M879 86H898V107H879ZM909 86H928V107H909ZM879 118H898V139H879ZM909 118H928V139H909Z"/>
+  </g>
+  <g fill="none" stroke="#e8b777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M597 114H675L667 107M675 114L667 121"/>
+    <path d="M772 114H851L843 107M851 114L843 121"/>
+    <path d="M885 96H891M915 96H922M885 128H891M915 128H922"/>
+  </g>
+  <g fill="#f4f0df" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="17" text-anchor="middle" letter-spacing=".5">
+    <text x="549" y="178">SOURCE</text>
+    <text x="726" y="178">NORMALISE</text>
+    <text x="904" y="178">CATALOGUE</text>
+  </g>
+  <path d="M514 207H589M597 207H620M937 27L956 46M946 27L965 46M955 27L974 46" fill="none" stroke="#c5efb2" stroke-opacity=".2"/>
+  <path d="M954 202L959 207L954 212L949 207Z" fill="#e8b777"/>
+</svg>

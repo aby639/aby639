@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="110" viewBox="0 0 1000 110" role="img" aria-labelledby="title desc">
+  <title id="title">01 / The main story — MemoLens</title>
+  <desc id="desc">A manga-inspired chapter card for MemoLens in dark emerald, pale mint and warm amber.</desc>
+  <rect width="1000" height="110" fill="#091712"/>
+  <path d="M16 9H984V88L971 101H16Z" fill="#10231b" stroke="#c5efb2" stroke-opacity=".38"/>
+  <path d="M22 15H309M978 75V17H800M23 94H62M946 95H967L978 84" fill="none" stroke="#c5efb2" stroke-opacity=".2"/>
+  <path d="M16 9H22V101H16Z" fill="#e8b777"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="36" y="82" fill="#c5efb2" font-size="65" font-weight="900" letter-spacing="-4">01</text>
+    <path d="M124 26V84" stroke="#c5efb2" stroke-opacity=".24"/>
+    <text x="147" y="37" fill="#e8b777" font-family="'Courier New', monospace" font-size="13" font-weight="700" letter-spacing="2">01 / THE MAIN STORY</text>
+    <text x="144" y="83" fill="#f4f0df" font-size="46" font-weight="900" letter-spacing="-1.7">MemoLens</text>
+    <text x="640" y="50" fill="#c5efb2" font-size="17" font-weight="700">Save the photo.</text>
+    <text x="640" y="74" fill="#f4f0df" font-size="17">Keep the feeling.</text>
+  </g>
+  <g fill="none" stroke="#e8b777" stroke-width="1.6">
+    <path d="M914 29L920 48L939 54L920 60L914 79L908 60L889 54L908 48Z"/>
+    <path d="M941 21V31M936 26H946M946 77V83M943 80H949"/>
+  </g>
+  <path d="M977 33L964 46M977 42L964 55M977 51L964 64" fill="none" stroke="#c5efb2" stroke-opacity=".25"/>
+</svg>

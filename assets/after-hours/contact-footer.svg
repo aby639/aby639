@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="180" viewBox="0 0 1000 180" role="img" aria-labelledby="title desc">
+  <title id="title">Have an idea? Let’s build.</title>
+  <desc id="desc">Aby Daniel Varghese. Open to software development roles.</desc>
+  <rect width="1000" height="180" fill="#091712"/>
+  <path d="M24 9H990V153L972 172H9V24Z" fill="#c5efb2"/>
+  <path d="M28 17H977V150L965 164H17V29Z" fill="none" stroke="#10231b" stroke-opacity=".52"/>
+  <path d="M25 24H292M25 155H53M801 155H956L970 141" fill="none" stroke="#10231b" stroke-opacity=".22"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#091712">
+    <text x="36" y="46" font-family="'Courier New', monospace" font-size="12" font-weight="700" letter-spacing="2">THE NEXT CHAPTER /</text>
+    <text x="32" y="106" font-size="54" font-weight="900" letter-spacing="-2">Have an idea? Let’s build.</text>
+    <text x="36" y="143" font-size="16">Aby Daniel Varghese / Open to software development roles</text>
+  </g>
+  <g stroke="#091712" fill="none" stroke-linecap="square">
+    <path d="M858 126L923 61M878 61H923V106" stroke-width="5"/>
+    <path d="M862 135L937 60" stroke-width="1" stroke-opacity=".3"/>
+    <path d="M914 39V47M910 43H918M944 122V134M938 128H950" stroke-width="1.5"/>
+  </g>
+  <path d="M972 32L960 44M972 41L960 53M972 50L960 62" fill="none" stroke="#091712" stroke-opacity=".22"/>
+</svg>

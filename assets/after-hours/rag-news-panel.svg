@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="240" viewBox="0 0 1000 240" role="img" aria-labelledby="title desc">
+  <title id="title">RAG News Chatbot — RSS to retrieval to cited answers</title>
+  <desc id="desc">Project panel showing RSS articles flowing through retrieval into a cited answer. Retrieval with a route back to the source.</desc>
+  <rect width="1000" height="240" fill="#091712"/>
+  <path d="M17 8H981L991 18V215L974 232H9V17Z" fill="#10231b" stroke="#c5efb2" stroke-opacity=".4"/>
+  <path d="M18 16H338M982 26V202M29 224H406M981 210L969 223H832" fill="none" stroke="#c5efb2" stroke-opacity=".18"/>
+  <path d="M477 29L461 210" stroke="#c5efb2" stroke-opacity=".21"/>
+  <path d="M485 29L470 210" stroke="#c5efb2" stroke-opacity=".08"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="35" y="38" fill="#e8b777" font-family="'Courier New', monospace" font-size="12" font-weight="700" letter-spacing="2.1">02 / FOLLOW THE SOURCE</text>
+    <text x="31" y="103" fill="#f4f0df" font-size="58" font-weight="900" letter-spacing="-2.3">RAG NEWS</text>
+    <text x="31" y="160" fill="#c5efb2" font-size="58" font-weight="900" letter-spacing="-2.3">CHATBOT</text>
+    <text x="35" y="199" fill="#f4f0df" font-size="16">Retrieval with a route back to the source.</text>
+  </g>
+  <g fill="none" stroke="#c5efb2" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M526 85H557L572 100V144H526Z"/>
+    <path d="M557 85V101H572M538 115H560M538 125H554M538 135H548"/>
+    <path d="M711 85L742 90L747 129L716 135Z" stroke-opacity=".45"/>
+    <circle cx="724" cy="111" r="19"/>
+    <path d="M738 125L752 141M715 106H732M715 115H728"/>
+    <path d="M880 87H929V132H904L887 144V132H880Z"/>
+    <path d="M891 100H917M891 110H912M891 120H901"/>
+  </g>
+  <g fill="none" stroke="#e8b777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M597 114H675L667 107M675 114L667 121"/>
+    <path d="M772 114H851L843 107M851 114L843 121"/>
+    <path d="M902 147L912 138M912 147L921 138"/>
+  </g>
+  <g fill="#f4f0df" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="17" text-anchor="middle" letter-spacing=".5">
+    <text x="549" y="178">RSS</text>
+    <text x="726" y="178">RETRIEVE</text>
+    <text x="904" y="178">CITED ANSWER</text>
+  </g>
+  <path d="M514 207H538M546 207H618M947 27L963 43M938 27L963 52M929 27L963 61" fill="none" stroke="#c5efb2" stroke-opacity=".2"/>
+  <circle cx="959" cy="207" r="3" fill="#e8b777"/>
+</svg>
