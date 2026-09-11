@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="510" viewBox="0 0 600 510" role="img" aria-labelledby="title desc">
+  <title id="title">Aby Daniel Varghese — full-stack developer</title>
+  <desc id="desc">From the first screen to the data underneath. Based in Greater Glasgow.</desc>
+  <rect width="600" height="510" rx="3" fill="#f3efe5"/>
+  <g fill="#171817" font-family="Arial, Helvetica, sans-serif">
+    <text x="30" y="38" font-family="'Courier New', monospace" font-size="15" font-weight="700" letter-spacing="1.2">ABY DANIEL VARGHESE</text>
+    <text x="570" y="38" text-anchor="end" font-family="'Courier New', monospace" font-size="15" font-weight="700">2026</text>
+    <path d="M30 62H570" stroke="#171817"/>
+    <text x="18" y="268" font-family="'Arial Black', Arial, Helvetica, sans-serif" font-size="232" font-weight="900" letter-spacing="-20">ABY<tspan fill="#ff6b3d">.</tspan></text>
+    <path d="M30 305H570" stroke="#171817"/>
+    <text x="30" y="361" font-size="29" font-weight="700" letter-spacing="-1">From the first screen</text>
+    <text x="30" y="399" font-size="29" font-weight="700" letter-spacing="-1">to the data underneath.</text>
+    <g transform="translate(478 375) scale(.43) rotate(-30)">
+      <ellipse cx="-38" cy="66" rx="150" ry="99" fill="#171817"/>
+      <ellipse cx="-38" cy="66" rx="105" ry="54" fill="#f3efe5"/>
+      <ellipse cx="-19" cy="33" rx="150" ry="99" fill="#ff6b3d" stroke="#f3efe5" stroke-width="8"/>
+      <ellipse cx="-19" cy="33" rx="105" ry="54" fill="#f3efe5"/>
+      <ellipse rx="150" ry="99" fill="#171817" stroke="#f3efe5" stroke-width="8"/>
+      <ellipse rx="105" ry="54" fill="#f3efe5"/>
+      <circle cx="124" cy="-57" r="18" fill="#ff6b3d" stroke="#f3efe5" stroke-width="5"/>
+    </g>
+    <path d="M30 451H570" stroke="#171817"/>
+    <text x="30" y="483" font-family="'Courier New', monospace" font-size="13" font-weight="700" letter-spacing=".6">FULL-STACK DEVELOPER</text>
+    <text x="570" y="483" text-anchor="end" font-family="'Courier New', monospace" font-size="13" font-weight="700" letter-spacing=".6">GREATER GLASGOW, UK</text>
+  </g>
+</svg>

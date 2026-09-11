@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="610" viewBox="0 0 1200 610" role="img" aria-labelledby="title desc">
+  <title id="title">Aby Daniel Varghese — full-stack developer</title>
+  <desc id="desc">Oversized ABY lettering with an original three-layer orbital mark. From the first screen to the data underneath. Mobile, web, APIs and AI. Based in Greater Glasgow.</desc>
+  <rect width="1200" height="610" rx="3" fill="#f3efe5"/>
+  <g fill="#171817" font-family="Arial, Helvetica, sans-serif">
+    <g font-family="'Courier New', monospace" font-size="15" font-weight="700" letter-spacing="1.7">
+      <text x="50" y="48">ABY DANIEL VARGHESE</text>
+      <text x="1150" y="48" text-anchor="end">INDEPENDENT WORK / 2026</text>
+    </g>
+    <path d="M50 73H1150" stroke="#171817" stroke-width="1"/>
+    <text x="35" y="349" font-family="'Arial Black', Arial, Helvetica, sans-serif" font-weight="900" font-size="337" letter-spacing="-26">ABY<tspan fill="#ff6b3d">.</tspan></text>
+    <g transform="translate(962 238) rotate(-30)">
+      <ellipse cx="-38" cy="66" rx="150" ry="99" fill="#171817"/>
+      <ellipse cx="-38" cy="66" rx="105" ry="54" fill="#f3efe5"/>
+      <ellipse cx="-19" cy="33" rx="150" ry="99" fill="#ff6b3d" stroke="#f3efe5" stroke-width="8"/>
+      <ellipse cx="-19" cy="33" rx="105" ry="54" fill="#f3efe5"/>
+      <ellipse rx="150" ry="99" fill="#171817" stroke="#f3efe5" stroke-width="8"/>
+      <ellipse rx="105" ry="54" fill="#f3efe5"/>
+      <circle cx="124" cy="-57" r="18" fill="#ff6b3d" stroke="#f3efe5" stroke-width="5"/>
+    </g>
+    <path d="M50 392H1150" stroke="#171817" stroke-width="1"/>
+    <text x="50" y="454" font-size="43" font-weight="700" letter-spacing="-1.5">From the first screen</text>
+    <text x="50" y="505" font-size="43" font-weight="700" letter-spacing="-1.5">to the data underneath.</text>
+    <g font-family="'Courier New', monospace" font-size="14" font-weight="700" letter-spacing="1.1">
+      <text x="838" y="439">01 / INTERFACE</text>
+      <text x="838" y="472">02 / SYSTEM</text>
+      <text x="838" y="505">03 / DATA</text>
+    </g>
+    <path d="M50 545H1150" stroke="#171817" stroke-width="1"/>
+    <g font-family="'Courier New', monospace" font-size="13" font-weight="700" letter-spacing="1.5">
+      <text x="50" y="578">FULL-STACK DEVELOPER</text>
+      <text x="626" y="578" text-anchor="middle">GREATER GLASGOW, UK</text>
+      <text x="1150" y="578" text-anchor="end">MOBILE / WEB / API / AI</text>
+    </g>
+  </g>
+</svg>

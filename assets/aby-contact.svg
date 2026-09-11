@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="188" viewBox="0 0 1200 188" role="img" aria-labelledby="title desc">
+  <title id="title">Have something worth building? Let's talk.</title>
+  <desc id="desc">Contact Aby Daniel Varghese about software development roles and projects.</desc>
+  <rect width="1200" height="188" rx="3" fill="#ff6b3d"/>
+  <g fill="#171817" font-family="Arial, Helvetica, sans-serif">
+    <text x="44" y="43" font-family="'Courier New', monospace" font-size="14" font-weight="700" letter-spacing="2">NEXT / YOUR IDEA</text>
+    <text x="40" y="108" font-size="49" font-weight="900" letter-spacing="-1.5">Have something worth building?</text>
+    <text x="44" y="151" font-size="28">Let's talk.</text>
+    <path d="M1057 129L1123 63M1065 63H1123V121" fill="none" stroke="#171817" stroke-width="10"/>
+  </g>
+</svg>

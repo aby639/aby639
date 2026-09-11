@@ -1,150 +1,115 @@
-<div align="center">
-
-<a href="https://github.com/aby639/my-gallery">
-  <img src="./assets/profile-hero-prism.svg" alt="Aby Daniel Varghese - cyber MemoLens focused full-stack developer profile" width="100%" />
+<a href="https://aby-portfolio-gules.vercel.app">
+  <picture>
+    <source media="(max-width: 640px)" srcset="./assets/aby-editorial-hero-mobile.svg" />
+    <img src="./assets/aby-editorial-hero.svg" width="100%" alt="Aby Daniel Varghese — full-stack developer in Greater Glasgow. From the first screen to the data underneath." />
+  </picture>
 </a>
 
-<br>
+<p align="center">
+  <a href="https://aby-portfolio-gules.vercel.app"><strong>EXPLORE MY PORTFOLIO ↗</strong></a>
+  &nbsp;&nbsp; / &nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=bV9s-qFNM9c">MEMOLENS FILM ↗</a>
+  &nbsp;&nbsp; / &nbsp;&nbsp;
+  <a href="mailto:sunnyvarghese25007@gmail.com">GET IN TOUCH ↗</a>
+</p>
 
-<img src="https://img.shields.io/badge/MemoLens-main_quest-020617?style=for-the-badge&labelColor=020617&color=22d3ee" alt="MemoLens main quest" />
-<img src="https://img.shields.io/badge/Full_stack-mobile_web_API-020617?style=for-the-badge&labelColor=020617&color=fb7185" alt="Full stack mobile web API" />
-<img src="https://img.shields.io/badge/Open_to_roles-software_developer-020617?style=for-the-badge&labelColor=020617&color=facc15" alt="Open to software developer roles" />
+<br />
 
-<br>
+I'm **Aby**, a full-stack developer based in Greater Glasgow and an MSc IT with Web Development student at the University of the West of Scotland. I build mobile apps, websites and the APIs behind them.
 
-<a href="mailto:sunnyvarghese25007@gmail.com">
-  <img src="https://img.shields.io/badge/Email-020617?style=for-the-badge&logo=gmail&logoColor=22d3ee" alt="Email" />
+My work ranges from a photo journal with voice memories to product-data pipelines and websites for imagined local businesses. I enjoy connecting the visible details to the logic underneath: the screen, the model, the request and what happens when something fails.
+
+<br />
+
+<a href="https://www.youtube.com/watch?v=bV9s-qFNM9c">
+  <img src="./assets/memolens-film-strip.svg" width="100%" alt="Featured project: MemoLens. Save the photo. Keep the feeling. Watch the 43-second app walkthrough." />
 </a>
-<a href="https://www.linkedin.com/in/aby639">
-  <img src="https://img.shields.io/badge/LinkedIn-020617?style=for-the-badge&logo=linkedin&logoColor=22d3ee" alt="LinkedIn" />
+
+<a href="https://www.youtube.com/watch?v=bV9s-qFNM9c">
+  <img src="./assets/memolens-demo-poster.png" width="100%" alt="MemoLens app demo poster showing the current dark photo collection, captions and moods. Click to watch on YouTube." />
 </a>
-<a href="https://github.com/aby639">
-  <img src="https://img.shields.io/badge/GitHub-020617?style=for-the-badge&logo=github&logoColor=22d3ee" alt="GitHub" />
-</a>
-<img src="https://komarev.com/ghpvc/?username=aby639&label=Profile%20views&color=22d3ee&style=for-the-badge" alt="Profile views" />
 
-</div>
+### A photo is only part of a memory.
 
----
+**MemoLens** keeps a photo together with its caption, mood, tags and an optional voice note. Start privately, build a collection on your device, then find a memory by the story around it.
 
-## Hello visitor
+The current app has a dark interface, favourites, search and voice-note filters. Native Android and iOS builds support voice recording; the video walks through the web-rendered app with demonstration memories. The app is currently for personal use and testing.
 
-<div align="center">
+**Expo · React Native · TypeScript · AsyncStorage**
 
-<img src="./assets/greeting-terminal-prism.svg" alt="Animated cyber hello terminal for Aby Daniel Varghese" width="100%" />
+[Watch the walkthrough ↗](https://www.youtube.com/watch?v=bV9s-qFNM9c) &nbsp; · &nbsp; [Explore the source ↗](https://github.com/aby639/my-gallery) &nbsp; · &nbsp; [Read the case study ↗](https://aby-portfolio-gules.vercel.app/work/memolens)
 
-</div>
+<br />
 
----
+## 02 / Websites with a point of view
 
-## Main quest: MemoLens
+Independent portfolio concepts, each built around a different kind of visitor. These screenshots show the latest local builds; linked live demos may show earlier revisions.
 
 <table>
   <tr>
-    <td width="58%">
-      <h3>Private memory gallery with product polish</h3>
-      <p>
-        MemoLens is the build I want people to notice first: a local-first memory gallery app built with Expo, React Native and TypeScript.
-      </p>
-      <p>
-        It brings together capture, clean browsing, captions, moods, tags, favourites, search, sharing, Google sign-in and EAS updates. For me, it is the project where mobile UI, product thinking, auth, local storage and release workflow all meet.
-      </p>
-      <p>
-        <a href="https://github.com/aby639/my-gallery"><strong>Open the MemoLens repo</strong></a>
-      </p>
+    <td width="50%" valign="top">
+      <a href="https://clydecraft-trades-demo.vercel.app"><img src="./assets/clydecraft-2026.png" width="100%" alt="ClydeCraft's current website: forest-green editorial layout with a framed kitchen project." /></a>
+      <h3>ClydeCraft</h3>
+      <p>A Glasgow trades concept: project photography, a material selector and a guided quote flow.</p>
+      <a href="https://clydecraft-trades-demo.vercel.app">Explore live site ↗</a>
     </td>
-    <td width="42%" align="center">
-      <img src="https://img.shields.io/badge/Local_first-storage-020617?style=for-the-badge&labelColor=020617&color=22d3ee" alt="Local first storage" />
-      <br>
-      <img src="https://img.shields.io/badge/Capture-search_share-020617?style=for-the-badge&labelColor=020617&color=fb7185" alt="Capture search share" />
-      <br>
-      <img src="https://img.shields.io/badge/Google_sign_in-EAS_update-020617?style=for-the-badge&labelColor=020617&color=facc15" alt="Google sign in EAS update" />
-      <br>
-      <img src="https://img.shields.io/badge/Product_UI-mobile_flow-020617?style=for-the-badge&labelColor=020617&color=14b8a6" alt="Product UI mobile flow" />
+    <td width="50%" valign="top">
+      <a href="https://care-home-template.vercel.app"><img src="./assets/alderwick-2026.png" width="100%" alt="Alderwick House's current care-home concept with warm imagery and editorial typography." /></a>
+      <h3>Alderwick House</h3>
+      <p>A care-home concept with warm design, clear visiting information and accessible interactions.</p>
+      <a href="https://care-home-template.vercel.app">Explore live site ↗</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://cairn-house-retreat-demo.vercel.app"><img src="./assets/cairn-2026.jpg" width="100%" alt="Cairn House's current Highland retreat concept, with large architectural photography." /></a>
+      <h3>Cairn House</h3>
+      <p>A Highland retreat concept with an architectural scroll story and an image-led atmosphere.</p>
+      <a href="https://cairn-house-retreat-demo.vercel.app">Explore live site ↗</a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://aby-portfolio-gules.vercel.app/work/morrow-studio"><img src="./assets/morrow-2026.png" width="100%" alt="Morrow Studio's current salon concept with editorial hair imagery and an interactive style selector." /></a>
+      <h3>Morrow Studio</h3>
+      <p>A salon concept with a spatial introduction, editorial film and an interactive style selector.</p>
+      <a href="https://aby-portfolio-gules.vercel.app/work/morrow-studio">Read case study ↗</a>
     </td>
   </tr>
 </table>
 
----
+<br />
 
-## Build identity
+## 03 / Under the interface
 
-```txt
-Name           : Aby Daniel Varghese
-Focus          : Full-stack development, mobile apps, APIs and AI tools
-Education      : MSc IT with Web Development, UWS Paisley (expected 2027)
-Current energy : Turn portfolio projects into polished product proof
-Open to        : full-stack, Python, Django, React and software roles
-```
+### [RAG News Chatbot ↗](https://github.com/aby639/RAG-Powered-Chatbot-for-News-Websites)
 
-I like the middle space where backend logic, databases and frontend experience meet: designing models, building CRUD/API workflows, connecting interfaces to services, testing endpoints and making rough ideas feel like real products.
+Article ingestion, vector retrieval, cited answers and session history.  
+**React · Express · Qdrant · Gemini · Redis**
 
----
+### [Product Data Explorer ↗](https://github.com/aby639/product-explorer)
 
-## Product loadout
+Product extraction, normalisation and browsing APIs.  
+**Next.js · NestJS · TypeScript · PostgreSQL**
 
-<div align="center">
+### [ScentMatch AI ↗](https://github.com/aby639/ScentMatch-AI-)
 
-<img src="https://skillicons.dev/icons?i=py,django,fastapi,flask,js,ts,react,nextjs,nodejs,express,nestjs,html,css,tailwind,bootstrap,postgres,mysql,sqlite,firebase,docker,git,github,postman,vscode,figma&theme=dark" alt="Tech stack icons" />
+A catalogue-grounded fragrance assistant with structured tools and deterministic matching.  
+**Python · Google ADK · Gemini · Streamlit**
 
-</div>
+<br />
 
----
+## 04 / The tools behind the work
 
-## Build radar
+**Interfaces** &nbsp; React · React Native · Next.js · TypeScript · Motion · GSAP  
+**Services & data** &nbsp; Python · Django · FastAPI · NestJS · PostgreSQL · Redis  
+**Workflow** &nbsp; Git · Docker · Postman · Playwright · Jest · Vitest
 
-<div align="center">
+<br />
 
-<a href="https://github.com/aby639/my-gallery">
-  <img src="./assets/project-system.svg" alt="Aby Daniel project radar led by MemoLens" width="100%" />
+<a href="mailto:sunnyvarghese25007@gmail.com">
+  <img src="./assets/aby-contact.svg" width="100%" alt="Have something worth building? Let's talk — email Aby Daniel Varghese." />
 </a>
 
-</div>
+I'm open to software development roles and conversations about useful products.
 
-| Project | Why it matters | Stack |
-|---|---|---|
-| [MemoLens](https://github.com/aby639/my-gallery) | Flagship local-first private memory gallery with capture, captions, tags, favourites, search, sharing and updates. | Expo, React Native, TypeScript, AsyncStorage, Google Sign-In |
-| [Product Explorer](https://github.com/aby639/product-explorer) | Full-stack product scraping and browsing with normalised product data. | Next.js, NestJS, TypeScript, PostgreSQL, Playwright |
-| [RAG News Chatbot](https://github.com/aby639/RAG-Powered-Chatbot-for-News-Websites) | News Q&A app using retrieval, embeddings, citations and session flow. | React, Express, Qdrant, Jina, Gemini, Redis |
-| [KPA Backend API](https://github.com/aby639/kpa-assignment) | Backend APIs for structured submissions and validation. | FastAPI, PostgreSQL, SQLAlchemy, Pydantic, Postman |
+[Email ↗](mailto:sunnyvarghese25007@gmail.com) &nbsp; · &nbsp; [Connect on LinkedIn ↗](https://www.linkedin.com/in/aby639) &nbsp; · &nbsp; [Portfolio ↗](https://aby-portfolio-gules.vercel.app)
 
----
-
-## System console
-
-<div align="center">
-
-<img src="./assets/anime-console-prism.svg" alt="Aby Daniel animated developer console" width="100%" />
-
-</div>
-
----
-
-## Contribution flow
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aby639/aby639/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aby639/aby639/output/github-contribution-grid-snake.svg" />
-  <img alt="Aby Daniel GitHub contribution snake animation" src="https://raw.githubusercontent.com/aby639/aby639/output/github-contribution-grid-snake.svg" />
-</picture>
-
-</div>
-
----
-
-## What I am levelling up
-
-```txt
-Mobile products   Expo, React Native, local-first UX, release workflow
-Backend systems   FastAPI, Django, PostgreSQL, REST APIs
-Frontend polish   React, TypeScript, animation, design systems
-AI products       RAG flows, embeddings, useful assistant workflows
-```
-
-<div align="center">
-
-<strong>Building useful products, sharpening the details and making every project look more real than the last one.</strong>
-
-</div>

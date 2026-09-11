@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210" role="img" aria-labelledby="title desc">
+  <title id="title">01 — MemoLens. Save the photo. Keep the feeling.</title>
+  <desc id="desc">Featured mobile project, with a 43-second app walkthrough available on YouTube.</desc>
+  <rect width="1200" height="210" rx="3" fill="#171817"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#f3efe5">
+    <text x="45" y="43" font-family="'Courier New', monospace" font-size="14" font-weight="700" letter-spacing="2.4" fill="#ff6b3d">01 / FEATURED PRODUCT</text>
+    <text x="42" y="124" font-size="72" font-weight="900" letter-spacing="-3">MemoLens</text>
+    <text x="45" y="168" font-size="25" letter-spacing="-.4">Save the photo. Keep the feeling.</text>
+    <path d="M850 42V168" stroke="#62625c"/>
+    <circle cx="930" cy="92" r="33" fill="#ff6b3d"/>
+    <path d="M921 77L944 92L921 107Z" fill="#171817"/>
+    <g font-family="'Courier New', monospace" font-size="15" font-weight="700" letter-spacing="1">
+      <text x="994" y="87">WATCH</text>
+      <text x="994" y="110">THE FILM</text>
+      <text x="900" y="158" font-size="13" fill="#c2c1b9">00:43 / APP WALKTHROUGH</text>
+    </g>
+  </g>
+</svg>
