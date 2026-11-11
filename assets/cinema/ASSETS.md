@@ -6,4 +6,6 @@ The Demon Slayer sequence is a fan-shared excerpt on [Tenor, posted by Faisal143
 
 The Naruto GIF remains the exact supplied file in `assets/after-hours`, including its static fallback. The contribution snake still points to the existing output branch, with its existing workflow unchanged.
 
-The MemoLens panels use the existing app screenshot with sample entries. The SVG headings and contact panel contain editable text and vector shapes. Previous profile assets remain available but are no longer displayed by the new README.
+The MemoLens GIFs show a 4.75-second silent excerpt of the app region from the existing demo, with sample entries. `memolens-source.mp4` is cropped from 5.6–10.4 seconds of the 1080p demo; the promotional film captions are outside the crop. The PNG versions retain the existing app screenshot as a reduced-motion fallback. The full video remains linked from the panel.
+
+The palette matches the updated portfolio source: light blue `#a6c8d8`, stronger blue `#356078`, navy `#101820` and near-white `#f1f4f5`. The SVG headings and contact panel contain editable text and vector shapes. Previous profile assets remain available but are no longer displayed by the new README.

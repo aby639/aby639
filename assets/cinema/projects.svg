@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="110" viewBox="0 0 1100 110" role="img" aria-labelledby="title desc">
 <title id="title">Other projects</title><desc id="desc">Web apps, APIs and a fragrance assistant.</desc>
-<rect width="1100" height="110" fill="#100e10"/><rect x="0" y="0" width="7" height="110" fill="#e34243"/>
-<text x="32" y="37" font-family="Arial,sans-serif" font-size="12" letter-spacing="2" fill="#c6b6b0">02 / MORE WORK</text>
-<text x="29" y="83" font-family="Arial,sans-serif" font-size="37" font-weight="700" fill="#f3ecde">Other projects</text>
-<path d="M1028 55h36m-15-15 15 15-15 15" fill="none" stroke="#e34243" stroke-width="3"/>
+<rect width="1100" height="110" fill="#101820"/><rect x="0" y="0" width="7" height="110" fill="#a6c8d8"/>
+<text x="32" y="37" font-family="Arial,sans-serif" font-size="12" letter-spacing="2" fill="#b8c7d0">02 / MORE WORK</text>
+<text x="29" y="83" font-family="Arial,sans-serif" font-size="37" font-weight="700" fill="#f1f4f5">Other projects</text>
+<path d="M1028 55h36m-15-15 15 15-15 15" fill="none" stroke="#a6c8d8" stroke-width="3"/>
 </svg>

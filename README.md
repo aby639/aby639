@@ -22,8 +22,10 @@ Right now, I'm working on **MemoLens**. I'm also an anime fan.
 
 <a href="https://www.youtube.com/watch?v=bV9s-qFNM9c">
   <picture>
-    <source media="(max-width: 640px)" srcset="./assets/cinema/memolens-mobile.png" />
-    <img src="./assets/cinema/memolens.png" width="100%" alt="MemoLens, a photo journal. App screenshot with sample entries. Watch the demo." />
+    <source media="(prefers-reduced-motion: reduce) and (max-width: 640px)" srcset="./assets/cinema/memolens-mobile.png" />
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/cinema/memolens.png" />
+    <source media="(max-width: 640px)" srcset="./assets/cinema/memolens-mobile.gif" />
+    <img src="./assets/cinema/memolens.gif" width="100%" alt="MemoLens, a photo journal. Looping app demo with sample entries. Watch the full video." />
   </picture>
 </a>
 

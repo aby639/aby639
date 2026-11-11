@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="245" viewBox="0 0 640 245" role="img" aria-labelledby="title desc">
 <title id="title">Say hello.</title><desc id="desc">Open to software development roles. Email Aby.</desc>
-<rect width="640" height="245" fill="#a72d39"/><text x="30" y="43" font-family="Arial,sans-serif" font-size="20" letter-spacing="2" fill="#f3ecde">GET IN TOUCH</text>
-<text x="25" y="146" font-family="Arial,sans-serif" font-size="82" font-weight="700" fill="#f3ecde">Say hello.</text>
-<text x="30" y="202" font-family="Arial,sans-serif" font-size="24" fill="#f3ecde">Open to software development roles.</text>
-<path d="m511 138 64-64h-50m50 0v50" stroke="#f3ecde" stroke-width="5" fill="none"/>
+<rect width="640" height="245" fill="#a6c8d8"/><text x="30" y="43" font-family="Arial,sans-serif" font-size="20" letter-spacing="2" fill="#101820">GET IN TOUCH</text>
+<text x="25" y="146" font-family="Arial,sans-serif" font-size="82" font-weight="700" fill="#101820">Say hello.</text>
+<text x="30" y="202" font-family="Arial,sans-serif" font-size="24" fill="#101820">Open to software development roles.</text>
+<path d="m511 138 64-64h-50m50 0v50" stroke="#101820" stroke-width="5" fill="none"/>
 </svg>

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="145" viewBox="0 0 640 145" role="img" aria-labelledby="title">
-<title id="title">Other projects</title><rect width="640" height="145" fill="#100e10"/><rect width="7" height="145" fill="#e34243"/>
-<text x="28" y="44" font-family="Arial,sans-serif" font-size="21" letter-spacing="2" fill="#c6b6b0">02 / MORE WORK</text>
-<text x="25" y="112" font-family="Arial,sans-serif" font-size="49" font-weight="700" fill="#f3ecde">Other projects</text>
-<path d="M548 92h50m-19-19 19 19-19 19" fill="none" stroke="#e34243" stroke-width="3"/>
+<title id="title">Other projects</title><rect width="640" height="145" fill="#101820"/><rect width="7" height="145" fill="#a6c8d8"/>
+<text x="28" y="44" font-family="Arial,sans-serif" font-size="21" letter-spacing="2" fill="#b8c7d0">02 / MORE WORK</text>
+<text x="25" y="112" font-family="Arial,sans-serif" font-size="49" font-weight="700" fill="#f1f4f5">Other projects</text>
+<path d="M548 92h50m-19-19 19 19-19 19" fill="none" stroke="#a6c8d8" stroke-width="3"/>
 </svg>

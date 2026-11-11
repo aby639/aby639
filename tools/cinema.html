@@ -2,64 +2,69 @@
 <html lang="en">
 <meta charset="utf-8">
 <title>Anime Cinema artwork renderer</title>
-<style>html,body{margin:0;background:#100e10}canvas{display:block}video,img{display:none}</style>
+<style>html,body{margin:0;background:#101820}canvas{display:block}video,img{display:none}</style>
 <canvas id="art"></canvas>
 <video id="scene" src="../assets/cinema/demon-slayer-source.mp4" muted preload="auto"></video>
+<video id="demo" src="../assets/cinema/memolens-source.mp4" muted preload="auto"></video>
 <img id="app" src="../assets/after-hours/memolens-app.png" alt="MemoLens sample entries">
 <script>
 const canvas=document.getElementById('art');
 const ctx=canvas.getContext('2d');
 const scene=document.getElementById('scene');
 const app=document.getElementById('app');
-const ink='#100e10', ivory='#f3ecde', red='#e34243', muted='#b8aaa6';
-window.ready=Promise.all([new Promise(resolve=>{if(scene.readyState>=2)resolve();else scene.addEventListener('loadeddata',resolve,{once:true})}),app.decode(),document.fonts.ready]);
+const demo=document.getElementById('demo');
+const ink='#101820', ivory='#f1f4f5', accent='#a6c8d8', muted='#b8c7d0';
+const loaded=video=>new Promise(resolve=>{if(video.readyState>=2)resolve();else video.addEventListener('loadeddata',resolve,{once:true})});
+window.ready=Promise.all([loaded(scene),loaded(demo),app.decode(),document.fonts.ready]);
 function text(s,x,y,size,color=ivory,font='Arial',weight=400){ctx.fillStyle=color;ctx.font=`${weight} ${size}px ${font}`;ctx.fillText(s,x,y)}
 function label(s,x,y,size=13,color=muted,spacing=2){ctx.fillStyle=color;ctx.font=`600 ${size}px Arial`;for(const c of s){ctx.fillText(c,x,y);x+=ctx.measureText(c).width+spacing}}
-function line(x,y,w,color=red){ctx.fillStyle=color;ctx.fillRect(x,y,w,2)}
+function line(x,y,w,color=accent){ctx.fillStyle=color;ctx.fillRect(x,y,w,2)}
 function cover(image,x,y,w,h,position=.5){const iw=image.videoWidth||image.naturalWidth,ih=image.videoHeight||image.naturalHeight;const scale=Math.max(w/iw,h/ih);const sw=w/scale,sh=h/scale;ctx.drawImage(image,(iw-sw)*position,(ih-sh)*.5,sw,sh,x,y,w,h)}
-async function seek(t){if(Math.abs(scene.currentTime-t)<.005)return;await new Promise(resolve=>{scene.addEventListener('seeked',resolve,{once:true});scene.currentTime=t})}
+async function seek(t,video=scene){if(Math.abs(video.currentTime-t)<.005)return;await new Promise(resolve=>{video.addEventListener('seeked',resolve,{once:true});video.currentTime=t})}
 window.renderHero=async function(t=0,mobile=false){
  await window.ready;await seek(t);
  const w=mobile?640:1100,h=mobile?760:530;canvas.width=w;canvas.height=h;
  ctx.fillStyle=ink;ctx.fillRect(0,0,w,h);
  if(mobile){
   cover(scene,0,0,w,438,.5);
-  let g=ctx.createLinearGradient(0,170,0,462);g.addColorStop(0,'#100e1000');g.addColorStop(.68,'#100e10bc');g.addColorStop(1,ink);ctx.fillStyle=g;ctx.fillRect(0,170,w,292);
-  ctx.fillStyle='#100e1040';ctx.fillRect(0,0,w,438);
+  let g=ctx.createLinearGradient(0,170,0,462);g.addColorStop(0,'#10182000');g.addColorStop(.68,'#101820bc');g.addColorStop(1,ink);ctx.fillStyle=g;ctx.fillRect(0,170,w,292);
+  ctx.fillStyle='#10182040';ctx.fillRect(0,0,w,438);
   label('ABY DANIEL VARGHESE',32,34,12,ivory,2);
-  text('ABY',28,510,222,ivory,'Impact');text('.',355,510,222,red,'Impact');
+  text('ABY',28,510,222,ivory,'Impact');text('.',355,510,222,accent,'Impact');
   text('Full-stack developer.',34,565,30,ivory,'Arial',600);
   text('Based in Scotland.',34,604,23,muted);
-  line(34,657,572,'#4c3134');label('MOBILE  /  WEB  /  APIS',34,696,15,ivory,2);
+  line(34,657,572,'#536571');label('MOBILE  /  WEB  /  APIS',34,696,15,ivory,2);
   label('DEMON SLAYER / HINOKAMI KAGURA',34,735,10,muted,1.3);
  }else{
   cover(scene,450,44,650,426,.5);
-  let g=ctx.createLinearGradient(400,0,750,0);g.addColorStop(0,ink);g.addColorStop(.25,ink);g.addColorStop(1,'#100e1000');ctx.fillStyle=g;ctx.fillRect(400,44,350,426);
-  let fade=ctx.createLinearGradient(0,350,0,470);fade.addColorStop(0,'#100e1000');fade.addColorStop(1,ink);ctx.fillStyle=fade;ctx.fillRect(450,350,650,120);
+  let g=ctx.createLinearGradient(400,0,750,0);g.addColorStop(0,ink);g.addColorStop(.25,ink);g.addColorStop(1,'#10182000');ctx.fillStyle=g;ctx.fillRect(400,44,350,426);
+  let fade=ctx.createLinearGradient(0,350,0,470);fade.addColorStop(0,'#10182000');fade.addColorStop(1,ink);ctx.fillStyle=fade;ctx.fillRect(450,350,650,120);
   label('ABY DANIEL VARGHESE',42,32,12,ivory,2.1);label('SCOTLAND',952,32,11,muted,1.8);
-  text('ABY',33,333,302,ivory,'Impact');text('.',476,333,302,red,'Impact');
+  text('ABY',33,333,302,ivory,'Impact');text('.',476,333,302,accent,'Impact');
   text('Full-stack developer.',44,389,31,ivory,'Arial',600);text('Mobile apps, websites and APIs.',44,427,21,muted);
-  line(42,474,1016,'#4c3134');label('REACT NATIVE  /  TYPESCRIPT  /  PYTHON',44,508,11,ivory,1.7);label('DEMON SLAYER / HINOKAMI KAGURA',765,508,9,muted,1.2);
+  line(42,474,1016,'#536571');label('REACT NATIVE  /  TYPESCRIPT  /  PYTHON',44,508,11,ivory,1.7);label('DEMON SLAYER / HINOKAMI KAGURA',765,508,9,muted,1.2);
  }
  return canvas.toDataURL('image/png').split(',')[1];
 };
-window.renderProject=async function(mobile=false){
- await window.ready;const w=mobile?640:1100,h=mobile?820:540;canvas.width=w;canvas.height=h;
+window.renderProject=async function(mobile=false,t=null){
+ await window.ready;if(t!==null)await seek(t,demo);
+ const screenshot=t===null?app:demo;
+ const w=mobile?640:1100,h=mobile?820:540;canvas.width=w;canvas.height=h;
  ctx.fillStyle=ivory;ctx.fillRect(0,0,w,h);
- label('01 / CURRENT PROJECT',38,38,12,'#7d3138',1.9);
+ label('01 / CURRENT PROJECT',38,38,12,'#356078',1.9);
  if(mobile){
-  text('MemoLens',32,118,67,ink,'Impact');text('A photo journal.',36,162,27,'#413739');
-  ctx.fillStyle='#d9cebd';ctx.fillRect(25,205,590,550);
-  ctx.drawImage(app,186,225,268,534);
+  text('MemoLens',32,118,67,ink,'Impact');text('A photo journal.',36,162,27,'#354b58');
+  ctx.fillStyle='#d4e0e6';ctx.fillRect(25,205,590,550);
+  ctx.drawImage(screenshot,186,225,268,534);
   text('WATCH THE DEMO  ↗',37,798,19,ink,'Arial',700);
  }else{
-  text('MemoLens',34,155,92,ink,'Impact');text('A photo journal.',40,205,30,'#413739');
-  text('Photos, notes and voice recordings.',40,256,21,'#55484a');
-  line(40,428,45,'#9e2b36');text('WATCH THE DEMO  ↗',40,474,20,ink,'Arial',700);
-  label('APP PREVIEW / SAMPLE ENTRIES',40,510,10,'#69595b',1.5);
-  ctx.fillStyle='#d9cebd';ctx.fillRect(634,32,430,508);
-  ctx.fillStyle='#c9bba8';ctx.beginPath();ctx.arc(855,285,172,0,Math.PI*2);ctx.fill();
-  ctx.drawImage(app,727,60,238,475);
+  text('MemoLens',34,155,92,ink,'Impact');text('A photo journal.',40,205,30,'#354b58');
+  text('Photos, notes and voice recordings.',40,256,21,'#536571');
+  line(40,428,45,'#356078');text('WATCH THE DEMO  ↗',40,474,20,ink,'Arial',700);
+  label('APP PREVIEW / SAMPLE ENTRIES',40,510,10,'#536571',1.5);
+  ctx.fillStyle='#d4e0e6';ctx.fillRect(634,32,430,508);
+  ctx.fillStyle='#a5b9c5';ctx.beginPath();ctx.arc(855,285,172,0,Math.PI*2);ctx.fill();
+  ctx.drawImage(screenshot,727,60,238,475);
  }
  return canvas.toDataURL('image/png').split(',')[1];
 };
