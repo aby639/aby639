@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="240" viewBox="0 0 1000 240" role="img" aria-labelledby="title desc">
-  <title id="title">Product Data Explorer — source to normalise to catalogue</title>
-  <desc id="desc">Project panel showing source product data flowing through normalisation into a catalogue. Product data with a consistent shape.</desc>
+  <title id="title">Product Data Explorer — books from World of Books</title>
+  <desc id="desc">World of Books data is extracted and stored for browsing. Browse books and check their details.</desc>
   <rect width="1000" height="240" fill="#091712"/>
   <path d="M26 8H991V223L982 232H9V25Z" fill="#10231b" stroke="#c5efb2" stroke-opacity=".4"/>
   <path d="M30 16H347M982 28V207M17 34V218H141M807 224H973" fill="none" stroke="#c5efb2" stroke-opacity=".18"/>
   <path d="M477 29L461 210" stroke="#c5efb2" stroke-opacity=".21"/>
   <path d="M485 29L470 210" stroke="#c5efb2" stroke-opacity=".08"/>
   <g font-family="Arial, Helvetica, sans-serif">
-    <text x="35" y="38" fill="#e8b777" font-family="'Courier New', monospace" font-size="12" font-weight="700" letter-spacing="2.1">03 / PUT THE PIECES IN PLACE</text>
+    <text x="35" y="38" fill="#e8b777" font-family="'Courier New', monospace" font-size="12" font-weight="700" letter-spacing="2.1">03 / BOOK BROWSER</text>
     <text x="31" y="103" fill="#f4f0df" font-size="50" font-weight="900" letter-spacing="-2">PRODUCT DATA</text>
     <text x="31" y="160" fill="#c5efb2" font-size="58" font-weight="900" letter-spacing="-2.3">EXPLORER</text>
-    <text x="35" y="199" fill="#f4f0df" font-size="16">Product data with a consistent shape.</text>
+    <text x="35" y="199" fill="#f4f0df" font-size="16">Browse books and check their details.</text>
   </g>
   <g fill="none" stroke="#c5efb2" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
     <path d="M520 94L559 83L572 133L533 145Z" stroke-opacity=".45"/>

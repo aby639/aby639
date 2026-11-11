@@ -1,0 +1,52 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>After hours — profile artwork renderer</title><style>html,body{margin:0;background:#091712}canvas{display:block}</style><canvas id="art"></canvas><script>
+const canvas=document.getElementById('art');
+const ctx=canvas.getContext('2d');
+const scene=new Image();
+scene.src='../assets/after-hours/welcome-background.png';
+const fontsReady=document.fonts.ready;
+window.ready=Promise.all([scene.decode(),fontsReady]);
+function text(value,x,y,size,color='#f4f0df',weight=400,font='Arial'){
+ ctx.font=`${weight} ${size}px ${font}`;ctx.fillStyle=color;ctx.fillText(value,x,y);
+}
+function spaced(value,x,y,size,color,spacing=3){
+ ctx.font=`600 ${size}px Arial`;ctx.fillStyle=color;
+ for(const letter of value){ctx.fillText(letter,x,y);x+=ctx.measureText(letter).width+spacing;}
+}
+window.renderFrame=function(frame=0,mobile=false){
+ const w=mobile?640:1000,h=mobile?790:590,t=frame/12;
+ canvas.width=w;canvas.height=h;
+ ctx.fillStyle='#091712';ctx.fillRect(0,0,w,h);
+ if(mobile){
+  ctx.drawImage(scene,500,30,1036,900,0,0,640,556);
+  const g=ctx.createLinearGradient(0,240,0,570);g.addColorStop(0,'rgba(9,23,18,0)');g.addColorStop(1,'#091712');ctx.fillStyle=g;ctx.fillRect(0,240,w,550);
+ }else{
+  ctx.drawImage(scene,0,35,1536,906,0,0,w,h);
+  const g=ctx.createLinearGradient(0,0,650,0);g.addColorStop(0,'rgba(6,19,15,.5)');g.addColorStop(.7,'rgba(6,19,15,.28)');g.addColorStop(1,'rgba(6,19,15,0)');ctx.fillStyle=g;ctx.fillRect(0,0,w,h);
+ }
+ // Short rain strokes stay in the window area and never cross the greeting.
+ ctx.save();ctx.beginPath();ctx.rect(mobile?55:452,0,mobile?580:520,mobile?310:215);ctx.clip();
+ for(let i=0;i<42;i++){
+  const x=(mobile?50:450)+(i*73%(mobile?580:535));
+  const y=((i*37+t*(mobile?380:275)/4)%(mobile?380:275))-40;
+  ctx.strokeStyle=`rgba(199,229,212,${.07+(i%3)*.02})`;ctx.lineWidth=.8;
+  ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(x-3,y+16+(i%5)*2);ctx.stroke();
+ }
+ ctx.restore();
+ const top=mobile?385:135,left=mobile?42:48;
+ spaced('ABY DANIEL VARGHESE',left,mobile?306:53,mobile?16:13,'#c5efb2',2.3);
+ text("Hey, I'm",left,top,mobile?61:63,'#f4f0df',700);
+ text('Aby.',left,top+(mobile?111:114),mobile?124:128,'#c5efb2',700);
+ const cursorOpacity=.25+.5*(1+Math.sin(t*Math.PI/2))/2;
+ ctx.fillStyle=`rgba(232,183,119,${cursorOpacity})`;ctx.fillRect(left+(mobile?258:264),top+(mobile?84:87),16,7);
+ text('Full-stack developer.',left,top+(mobile?164:166),mobile?29:27,'#f4f0df',600);
+ text('Based in Scotland.',left,top+(mobile?210:209),mobile?23:21,'#bdd0c1');
+ const lineY=mobile?670:445;
+ ctx.strokeStyle='#4e6954';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(left,lineY);ctx.lineTo(mobile?598:455,lineY);ctx.stroke();
+ spaced('MOBILE  /  WEB  /  APIS',left,lineY+37,mobile?16:13,'#e8b777',2);
+ text('My projects and contact links are below.',left,mobile?746:550,mobile?22:20,'#edf0dc');
+ if(!mobile){spaced('SCOTLAND',833,550,11,'#c5efb2',2);}
+ ctx.strokeStyle='rgba(197,239,178,.18)';ctx.strokeRect(.5,.5,w-1,h-1);
+ return canvas.toDataURL('image/png').split(',')[1];
+};
+window.ready.then(()=>window.renderFrame());
+</script></html>
